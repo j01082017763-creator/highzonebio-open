@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>하이존바이오 (HIGHZONE BIO) — 오픈 이코노미 허브</title>
+<meta name="description" content="베란다 화분 하나에서 논밭까지, 바이오 기술로 작물 가치를 극대화하고 소비가 소득이 되는 1-Core 3-Doors 오픈 생태계 허브">
+<meta property="og:type" content="website">
+<meta property="og:title" content="하이존바이오 — 오픈 이코노미 허브">
+<meta property="og:description" content="베란다 화분 하나에서 논밭까지, 기술로 잇다. 1-Core 3-Doors 자율순환 바이오 생태계">
+<meta property="og:image" content="assets/logo.png">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700;900&family=Pretendard:wght@300;400;500;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+
+<style>
+  :root {
+    --ink: #181d16;
+    --paper: #f7f4ed;
+    --forest: #1e3626;
+    --forest-deep: #0f1c14;
+    --gold: #b08a4e;
+    --gold-light: #d8b274;
+    --sage: #7d9670;
+    --line: #e3dccd;
+    --maxw: 1060px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  html { scroll-behavior: smooth; font-size: 16px; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+    word-break: keep-all;
+  }
+  h1, h2, h3, .serif { font-family: 'Noto Serif KR', serif; }
+  .montserrat { font-family: 'Montserrat', sans-serif; }
+  a { color: inherit; text-decoration: none; }
+  button { font-family: inherit; cursor: pointer; border: none; outline: none; background: none; }
+  img { max-width: 100%; height: auto; display: block; }
+  .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
+
+  /* Header */
+  .site-header {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: rgba(15, 28, 20, 0.96);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(244, 240, 230, 0.1);
+  }
+  .header-inner {
+    max-width: var(--maxw); margin: 0 auto; padding: 12px 20px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .logo-area { display: flex; align-items: center; gap: 10px; }
+  .logo-img { width: 34px; height: 34px; object-fit: contain; border-radius: 8px; background: #fff; padding: 2px; }
+  .logo-text { display: flex; flex-direction: column; line-height: 1.2; }
+  .logo-title { color: #f4f0e6; font-size: 15px; font-weight: 700; letter-spacing: -0.02em; }
+  .logo-sub { color: var(--gold); font-size: 10px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+  
+  .nav-desktop { display: flex; align-items: center; gap: 20px; font-size: 13.5px; color: #d6d0bf; }
+  .nav-desktop a:hover { color: #ffffff; }
+  .header-cta {
+    background: linear-gradient(135deg, var(--gold), #c99f5b);
+    color: #12211a; font-size: 12.5px; font-weight: 800;
+    padding: 7px 16px; border-radius: 999px; transition: transform 0.2s;
+  }
+  .header-cta:hover { transform: translateY(-1px); }
+
+  /* Hero Section (Compact & Impactful) */
+  .hub-hero {
+    padding-top: 105px;
+    padding-bottom: 36px;
+    background:
+      radial-gradient(ellipse 900px 500px at 80% 20%, rgba(176,138,78,0.2), transparent 65%),
+      linear-gradient(165deg, var(--forest-deep) 0%, var(--forest) 70%, #152b1c 100%);
+    color: #f4f0e6;
+    text-align: center;
+  }
+  .hub-badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: rgba(176,138,78,0.2); border: 1px solid rgba(176,138,78,0.4);
+    padding: 5px 14px; border-radius: 999px; font-size: 11.5px; font-weight: 800;
+    color: var(--gold-light); margin-bottom: 16px; letter-spacing: 0.06em;
+  }
+  .hub-hero h1 {
+    font-size: clamp(28px, 4.4vw, 42px);
+    font-weight: 900; line-height: 1.3; margin-bottom: 12px;
+  }
+  .hub-hero p.lead {
+    font-size: clamp(14px, 2vw, 16px); color: #d6cfbe;
+    max-width: 680px; margin: 0 auto 26px auto; line-height: 1.6;
+  }
+  
+  /* 2 Core Proof Badges */
+  .proof-metrics-row {
+    display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; margin-bottom: 10px;
+  }
+  .proof-pill {
+    background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 12px; padding: 10px 18px; display: flex; align-items: center; gap: 10px;
+  }
+  .proof-num { font-size: 20px; font-weight: 900; color: var(--gold-light); font-family: 'Montserrat', sans-serif; }
+  .proof-txt { font-size: 12px; color: #cfc8b6; text-align: left; line-height: 1.35; }
+
+  /* 3-DOORS GATEWAY SECTION (The Centerpiece) */
+  .gateway-sec {
+    padding: 40px 0 50px 0;
+  }
+  .gateway-head {
+    text-align: center; margin-bottom: 28px;
+  }
+  .gateway-head h2 { font-size: 24px; font-weight: 800; color: var(--forest-deep); margin-bottom: 6px; }
+  .gateway-head p { font-size: 13.5px; color: #665f50; }
+
+  .gateway-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+  }
+  .door-card {
+    background: #ffffff;
+    border: 1.5px solid var(--line);
+    border-radius: 20px;
+    padding: 30px 24px;
+    display: flex; flex-direction: column; justify-content: space-between;
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+    position: relative; overflow: hidden;
+  }
+  .door-card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px;
+    background: var(--accent, var(--forest));
+  }
+  .door-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    border-color: var(--accent, var(--forest));
+  }
+  
+  .door-card.c-consumer { --accent: #2e7d32; }
+  .door-card.c-producer { --accent: #b08a4e; }
+  .door-card.c-investor { --accent: #1e3626; }
+
+  .door-top { margin-bottom: 20px; }
+  .door-step {
+    font-size: 11px; font-weight: 800; letter-spacing: 0.08em; color: var(--accent);
+    text-transform: uppercase; margin-bottom: 8px; display: flex; align-items: center; gap: 4px;
+  }
+  .door-icon-box {
+    width: 50px; height: 50px; border-radius: 14px; background: rgba(30,54,38,0.06);
+    display: flex; align-items: center; justify-content: center; color: var(--accent);
+    margin-bottom: 16px;
+  }
+  .door-card.c-producer .door-icon-box { background: rgba(176,138,78,0.12); }
+  .door-card h3 { font-size: 20px; font-weight: 800; color: var(--forest-deep); margin-bottom: 8px; line-height: 1.3; }
+  .door-card p.desc { font-size: 13px; color: #5a5344; line-height: 1.55; margin-bottom: 14px; }
+  
+  .door-features { list-style: none; display: flex; flex-direction: column; gap: 7px; margin-bottom: 22px; }
+  .door-features li { display: flex; align-items: center; gap: 6px; font-size: 12px; color: #444; font-weight: 500; }
+  .door-features li .material-symbols-outlined { font-size: 16px; color: var(--accent); }
+
+  .door-btn {
+    width: 100%; padding: 12px 16px; border-radius: 12px; font-size: 13.5px; font-weight: 800;
+    display: flex; align-items: center; justify-content: center; gap: 6px;
+    background: #f4f0e6; color: var(--forest-deep); border: 1px solid var(--line);
+    transition: all 0.2s;
+  }
+  .door-card:hover .door-btn {
+    background: var(--accent); color: #ffffff; border-color: var(--accent);
+  }
+  .door-card.c-producer .door-btn {
+    background: linear-gradient(135deg, var(--gold), #c99f5b); color: #12211a; border: none;
+  }
+  .door-card.c-producer:hover .door-btn { box-shadow: 0 4px 14px rgba(176,138,78,0.4); }
+
+  /* Compact Trust Badges Bar */
+  .trust-strip {
+    background: #f0ebe0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+    padding: 24px 0; text-align: center;
+  }
+  .trust-badges-grid {
+    display: flex; justify-content: center; align-items: center; gap: 24px; flex-wrap: wrap;
+    font-size: 12.5px; font-weight: 700; color: #5c5545;
+  }
+  .trust-badge-item { display: flex; align-items: center; gap: 6px; }
+  .trust-badge-item .material-symbols-outlined { color: var(--forest); font-size: 18px; }
+
+  /* Footer */
+  footer {
+    background: var(--forest-deep); color: #c9c3b0; padding: 36px 0; text-align: center; font-size: 12px;
+  }
+  .footer-links { display: flex; justify-content: center; gap: 16px; margin-bottom: 12px; font-weight: 600; color: #e5dfd0; }
+  .footer-links a:hover { color: #fff; }
+
+  @media (max-width: 860px) {
+    .gateway-grid { grid-template-columns: 1fr; gap: 16px; }
+    .proof-metrics-row { flex-direction: column; align-items: center; gap: 10px; }
+    .nav-desktop { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo-area">
+      <img src="assets/logo.png" alt="HIGHZONE BIO" class="logo-img" onerror="this.src='../assets/logo.png'">
+      <div class="logo-text">
+        <span class="logo-title">하이존바이오</span>
+        <span class="logo-sub">OPEN ECONOMY HUB</span>
+      </div>
+    </a>
+    <nav class="nav-desktop">
+      <a href="https://highzonebio-kr.surge.sh" target="_blank">🛒 공식 쇼핑몰</a>
+      <a href="producer.html">🌱 생산자·파트너</a>
+      <a href="invest.html">💼 투자자 IR</a>
+    </nav>
+    <a href="invest.html#contact" class="header-cta">문의하기</a>
+  </div>
+</header>
+
+<!-- Hero Section (Compact: 1.5 Scroll Goal) -->
+<section class="hub-hero">
+  <div class="wrap">
+    <div class="hub-badge">
+      <span class="material-symbols-outlined" style="font-size:14px;">energy_savings_leaf</span>
+      HIGHZONE BIO · 1-CORE 3-DOORS GATEWAY
+    </div>
+    <h1>베란다 화분 하나에서<br><span style="color:var(--gold-light);">논밭까지, 기술로 잇다</span></h1>
+    <p class="lead">
+      독보적인 <strong>이온화 탄소 기술</strong>과 사람이 살맛 나는 <strong>자율순환 오픈 이코노미</strong>.<br>
+      당신의 목적에 맞는 문으로 입장하세요.
+    </p>
+
+    <!-- 2 Impactful Proof Metrics -->
+    <div class="proof-metrics-row">
+      <div class="proof-pill">
+        <span class="proof-num">+340%</span>
+        <div class="proof-txt"><strong>이온화 탄소 영양 흡수율</strong><br>화학비료 대비 뿌리 세포막 직접 전달</div>
+      </div>
+      <div class="proof-pill">
+        <span class="proof-num">+41%</span>
+        <div class="proof-txt"><strong>3개년 공인 실증 낟알수 증대</strong><br>은(Ag)·셀레늄 기능성 미네랄 검증</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3-DOORS GATEWAY (Core Hub Action) -->
+<section class="gateway-sec">
+  <div class="wrap">
+    <div class="gateway-head">
+      <h2>당신의 문(Door)을 선택하세요</h2>
+      <p>소비자, 생산자, 투자자가 하나의 시스템 안에서 가치를 자율 순환시킵니다.</p>
+    </div>
+
+    <div class="gateway-grid">
+      <!-- Door 1: Consumer -->
+      <div class="door-card c-consumer">
+        <div class="door-top">
+          <div class="door-step">DOOR 01 · CONSUMER</div>
+          <div class="door-icon-box">
+            <span class="material-symbols-outlined" style="font-size:28px;">shopping_basket</span>
+          </div>
+          <h3>순수 소비자</h3>
+          <p class="desc">동네 스마트팜 당일 수확 무농약 안심 먹거리와 소비가 소득이 되는 15% HZP 배당 적립 쇼핑몰.</p>
+          <ul class="door-features">
+            <li><span class="material-symbols-outlined">check</span> 당일 수확 무농약 쌈채소 직배송</li>
+            <li><span class="material-symbols-outlined">check</span> 소비액의 15% 생산베드 지분 적립</li>
+            <li><span class="material-symbols-outlined">check</span> 반경 3~10km 로컬 직거래 픽업</li>
+          </ul>
+        </div>
+        <a href="https://highzonebio-kr.surge.sh" target="_blank" class="door-btn">
+          <span>쇼핑몰 바로가기</span>
+          <span class="material-symbols-outlined" style="font-size:16px;">open_in_new</span>
+        </a>
+      </div>
+
+      <!-- Door 2: Producer / Partner -->
+      <div class="door-card c-producer" style="border-color:var(--gold); box-shadow:0 8px 25px rgba(176,138,78,0.12);">
+        <div class="door-top">
+          <div class="door-step" style="color:var(--gold);">DOOR 02 · PRODUCER & PARTNER</div>
+          <div class="door-icon-box">
+            <span class="material-symbols-outlined" style="font-size:28px;">storefront</span>
+          </div>
+          <h3>1인 생산자 · 파트너</h3>
+          <p class="desc">사진 1장과 영상으로 30초 만에 열리는 나만의 미니홈피 스토어 & 1대 직추천 평생 3% 리워드 파트너십.</p>
+          <ul class="door-features">
+            <li><span class="material-symbols-outlined">check</span> 30초 원클릭 미니홈피 생성</li>
+            <li><span class="material-symbols-outlined">check</span> 다단계가 아닌 합법 1대 평생 3% 리워드</li>
+            <li><span class="material-symbols-outlined">check</span> 본사 통합몰 동시 노출 & 판로 확보</li>
+          </ul>
+        </div>
+        <a href="producer.html" class="door-btn">
+          <span>생산자·파트너 안내 보기</span>
+          <span class="material-symbols-outlined" style="font-size:16px;">arrow_forward</span>
+        </a>
+      </div>
+
+      <!-- Door 3: Investor -->
+      <div class="door-card c-investor">
+        <div class="door-top">
+          <div class="door-step">DOOR 03 · INVESTOR & IR</div>
+          <div class="door-icon-box">
+            <span class="material-symbols-outlined" style="font-size:28px;">analytics</span>
+          </div>
+          <h3>스마트 투자자 · 제휴</h3>
+          <p class="desc">거품 낀 투자가 아닌, 매일 수확되는 실물 온실 IoT 생육 데이터 기반 Proof-of-Trust 지분 펀딩 & 양평 플래그십.</p>
+          <ul class="door-features">
+            <li><span class="material-symbols-outlined">check</span> 1-Core 3-Doors 자율순환 엔진</li>
+            <li><span class="material-symbols-outlined">check</span> 온실 IoT 실시간 신뢰증명 펀딩</li>
+            <li><span class="material-symbols-outlined">check</span> 양평 랜드마크 & 임실 체인 거점</li>
+          </ul>
+        </div>
+        <a href="invest.html" class="door-btn">
+          <span>투자·IR 상세자료 보기</span>
+          <span class="material-symbols-outlined" style="font-size:16px;">arrow_forward</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Trust Strip -->
+<div class="trust-strip">
+  <div class="wrap">
+    <div class="trust-badges-grid">
+      <div class="trust-badge-item">
+        <span class="material-symbols-outlined">school</span>
+        <span>전주대학교 벤처창업관 산학협력 R&D</span>
+      </div>
+      <div class="trust-badge-item">
+        <span class="material-symbols-outlined">verified</span>
+        <span>이온화 탄소 담체 특허 보유</span>
+      </div>
+      <div class="trust-badge-item">
+        <span class="material-symbols-outlined">science</span>
+        <span>공인 농가 3개년 실증 완료</span>
+      </div>
+      <div class="trust-badge-item">
+        <span class="material-symbols-outlined">shield</span>
+        <span>ABASPO 99.9% 천연 살균 인증</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="wrap">
+    <div class="footer-links">
+      <a href="index.html">허브 메인</a>
+      <a href="https://highzonebio-kr.surge.sh" target="_blank">소비자 쇼핑몰</a>
+      <a href="producer.html">생산자·파트너</a>
+      <a href="invest.html">투자자 IR</a>
+    </div>
+    <p>HIGHZONE BIO · 1-Core 3-Doors 오픈 이코노미 플랫폼</p>
+    <p style="color:#787163; margin-top:4px;">전북 전주시 완산구 백제대로 303 전주대학교 벤처창업관</p>
+  </div>
+</footer>
+
+</body>
+</html>
