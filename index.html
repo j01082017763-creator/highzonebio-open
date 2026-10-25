@@ -1,367 +1,406 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-<title>하이존바이오 (HIGHZONE BIO) — 오픈 이코노미 허브</title>
-<meta name="description" content="베란다 화분 하나에서 논밭까지, 바이오 기술로 작물 가치를 극대화하고 소비가 소득이 되는 1-Core 3-Doors 오픈 생태계 허브">
-<meta property="og:type" content="website">
-<meta property="og:title" content="하이존바이오 — 오픈 이코노미 허브">
-<meta property="og:description" content="베란다 화분 하나에서 논밭까지, 기술로 잇다. 1-Core 3-Doors 자율순환 바이오 생태계">
-<meta property="og:image" content="assets/logo.png">
-
-<!-- Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700;900&family=Pretendard:wght@300;400;500;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
-
-<style>
-  :root {
-    --ink: #181d16;
-    --paper: #f7f4ed;
-    --forest: #1e3626;
-    --forest-deep: #0f1c14;
-    --gold: #b08a4e;
-    --gold-light: #d8b274;
-    --sage: #7d9670;
-    --line: #e3dccd;
-    --maxw: 1060px;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>하이존바이오 공식몰 (HIGHZONE BIO Official Mall) — 탄소·이온 농업바이오 전문 스토어</title>
+  <meta name="description" content="하이존바이오(HIGHZONE BIO) 본사 직영 공식 전문 쇼핑몰. 프로그로우(PRO GROW), 아마존미네랄(AMAZON MINERAL), 프로루트(PRO ROOT), 프로쉴드(PRO SHIELD), 프로컬러(PRO COLOR), 제5원소 등 특허 탄소·이온 포뮬러 정품 스토어.">
+  <meta name="keywords" content="하이존바이오 쇼핑몰, 하이존바이오 공식몰, 프로그로우 구매, 아마존미네랄, 프로루트, 프로쉴드, 프로컬러, 제5원소 비료, 탄소이온비료">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <link rel="canonical" href="https://shop.highzonebio.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="하이존바이오 공식 전문 쇼핑몰">
+  <meta property="og:title" content="하이존바이오 공식몰 — 6대 탄소·이온 포뮬러 본사 직영 스토어">
+  <meta property="og:description" content="생체이용률 85% 이상의 혁신 탄소·이온 농업 바이오 솔루션을 본사 직영몰에서 만나보세요.">
+  <meta property="og:url" content="https://shop.highzonebio.com/">
+  <meta property="og:image" content="https://shop.highzonebio.com/assets/prod-grow.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <style>
+    body { font-family: 'Pretendard', sans-serif; word-break: keep-all; }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "하이존바이오 공식 전문 쇼핑몰 (HIGHZONE BIO Official Store)",
+    "url": "https://shop.highzonebio.com",
+    "description": "하이존바이오 탄소·이온 기술 6대 포뮬러 및 농업 바이오 정품 본사 직영 쇼핑몰",
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "하이존바이오 (HIGHZONE BIO)",
+      "url": "https://kr.highzonebio.com",
+      "sameAs": ["https://highzonebio.com"]
+    }
   }
-  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
-  html { scroll-behavior: smooth; font-size: 16px; }
-  body {
-    background: var(--paper);
-    color: var(--ink);
-    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    line-height: 1.6;
-    overflow-x: hidden;
-    word-break: keep-all;
-  }
-  h1, h2, h3, .serif { font-family: 'Noto Serif KR', serif; }
-  .montserrat { font-family: 'Montserrat', sans-serif; }
-  a { color: inherit; text-decoration: none; }
-  button { font-family: inherit; cursor: pointer; border: none; outline: none; background: none; }
-  img { max-width: 100%; height: auto; display: block; }
-  .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
-
-  /* Header */
-  .site-header {
-    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-    background: rgba(15, 28, 20, 0.96);
-    backdrop-filter: blur(12px);
-    border-bottom: 1px solid rgba(244, 240, 230, 0.1);
-  }
-  .header-inner {
-    max-width: var(--maxw); margin: 0 auto; padding: 12px 20px;
-    display: flex; align-items: center; justify-content: space-between;
-  }
-  .logo-area { display: flex; align-items: center; gap: 10px; }
-  .logo-img { width: 34px; height: 34px; object-fit: contain; border-radius: 8px; background: #fff; padding: 2px; }
-  .logo-text { display: flex; flex-direction: column; line-height: 1.2; }
-  .logo-title { color: #f4f0e6; font-size: 15px; font-weight: 700; letter-spacing: -0.02em; }
-  .logo-sub { color: var(--gold); font-size: 10px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
-  
-  .nav-desktop { display: flex; align-items: center; gap: 20px; font-size: 13.5px; color: #d6d0bf; }
-  .nav-desktop a:hover { color: #ffffff; }
-  .header-cta {
-    background: linear-gradient(135deg, var(--gold), #c99f5b);
-    color: #12211a; font-size: 12.5px; font-weight: 800;
-    padding: 7px 16px; border-radius: 999px; transition: transform 0.2s;
-  }
-  .header-cta:hover { transform: translateY(-1px); }
-
-  /* Hero Section (Compact & Impactful) */
-  .hub-hero {
-    padding-top: 105px;
-    padding-bottom: 36px;
-    background:
-      radial-gradient(ellipse 900px 500px at 80% 20%, rgba(176,138,78,0.2), transparent 65%),
-      linear-gradient(165deg, var(--forest-deep) 0%, var(--forest) 70%, #152b1c 100%);
-    color: #f4f0e6;
-    text-align: center;
-  }
-  .hub-badge {
-    display: inline-flex; align-items: center; gap: 6px;
-    background: rgba(176,138,78,0.2); border: 1px solid rgba(176,138,78,0.4);
-    padding: 5px 14px; border-radius: 999px; font-size: 11.5px; font-weight: 800;
-    color: var(--gold-light); margin-bottom: 16px; letter-spacing: 0.06em;
-  }
-  .hub-hero h1 {
-    font-size: clamp(28px, 4.4vw, 42px);
-    font-weight: 900; line-height: 1.3; margin-bottom: 12px;
-  }
-  .hub-hero p.lead {
-    font-size: clamp(14px, 2vw, 16px); color: #d6cfbe;
-    max-width: 680px; margin: 0 auto 26px auto; line-height: 1.6;
-  }
-  
-  /* 2 Core Proof Badges */
-  .proof-metrics-row {
-    display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; margin-bottom: 10px;
-  }
-  .proof-pill {
-    background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.14);
-    border-radius: 12px; padding: 10px 18px; display: flex; align-items: center; gap: 10px;
-  }
-  .proof-num { font-size: 20px; font-weight: 900; color: var(--gold-light); font-family: 'Montserrat', sans-serif; }
-  .proof-txt { font-size: 12px; color: #cfc8b6; text-align: left; line-height: 1.35; }
-
-  /* 3-DOORS GATEWAY SECTION (The Centerpiece) */
-  .gateway-sec {
-    padding: 40px 0 50px 0;
-  }
-  .gateway-head {
-    text-align: center; margin-bottom: 28px;
-  }
-  .gateway-head h2 { font-size: 24px; font-weight: 800; color: var(--forest-deep); margin-bottom: 6px; }
-  .gateway-head p { font-size: 13.5px; color: #665f50; }
-
-  .gateway-grid {
-    display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
-  }
-  .door-card {
-    background: #ffffff;
-    border: 1.5px solid var(--line);
-    border-radius: 20px;
-    padding: 30px 24px;
-    display: flex; flex-direction: column; justify-content: space-between;
-    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
-    box-shadow: 0 4px 20px rgba(0,0,0,0.03);
-    position: relative; overflow: hidden;
-  }
-  .door-card::before {
-    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px;
-    background: var(--accent, var(--forest));
-  }
-  .door-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
-    border-color: var(--accent, var(--forest));
-  }
-  
-  .door-card.c-consumer { --accent: #2e7d32; }
-  .door-card.c-producer { --accent: #b08a4e; }
-  .door-card.c-investor { --accent: #1e3626; }
-
-  .door-top { margin-bottom: 20px; }
-  .door-step {
-    font-size: 11px; font-weight: 800; letter-spacing: 0.08em; color: var(--accent);
-    text-transform: uppercase; margin-bottom: 8px; display: flex; align-items: center; gap: 4px;
-  }
-  .door-icon-box {
-    width: 50px; height: 50px; border-radius: 14px; background: rgba(30,54,38,0.06);
-    display: flex; align-items: center; justify-content: center; color: var(--accent);
-    margin-bottom: 16px;
-  }
-  .door-card.c-producer .door-icon-box { background: rgba(176,138,78,0.12); }
-  .door-card h3 { font-size: 20px; font-weight: 800; color: var(--forest-deep); margin-bottom: 8px; line-height: 1.3; }
-  .door-card p.desc { font-size: 13px; color: #5a5344; line-height: 1.55; margin-bottom: 14px; }
-  
-  .door-features { list-style: none; display: flex; flex-direction: column; gap: 7px; margin-bottom: 22px; }
-  .door-features li { display: flex; align-items: center; gap: 6px; font-size: 12px; color: #444; font-weight: 500; }
-  .door-features li .material-symbols-outlined { font-size: 16px; color: var(--accent); }
-
-  .door-btn {
-    width: 100%; padding: 12px 16px; border-radius: 12px; font-size: 13.5px; font-weight: 800;
-    display: flex; align-items: center; justify-content: center; gap: 6px;
-    background: #f4f0e6; color: var(--forest-deep); border: 1px solid var(--line);
-    transition: all 0.2s;
-  }
-  .door-card:hover .door-btn {
-    background: var(--accent); color: #ffffff; border-color: var(--accent);
-  }
-  .door-card.c-producer .door-btn {
-    background: linear-gradient(135deg, var(--gold), #c99f5b); color: #12211a; border: none;
-  }
-  .door-card.c-producer:hover .door-btn { box-shadow: 0 4px 14px rgba(176,138,78,0.4); }
-
-  /* Compact Trust Badges Bar */
-  .trust-strip {
-    background: #f0ebe0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
-    padding: 24px 0; text-align: center;
-  }
-  .trust-badges-grid {
-    display: flex; justify-content: center; align-items: center; gap: 24px; flex-wrap: wrap;
-    font-size: 12.5px; font-weight: 700; color: #5c5545;
-  }
-  .trust-badge-item { display: flex; align-items: center; gap: 6px; }
-  .trust-badge-item .material-symbols-outlined { color: var(--forest); font-size: 18px; }
-
-  /* Footer */
-  footer {
-    background: var(--forest-deep); color: #c9c3b0; padding: 36px 0; text-align: center; font-size: 12px;
-  }
-  .footer-links { display: flex; justify-content: center; gap: 16px; margin-bottom: 12px; font-weight: 600; color: #e5dfd0; }
-  .footer-links a:hover { color: #fff; }
-
-  @media (max-width: 860px) {
-    .gateway-grid { grid-template-columns: 1fr; gap: 16px; }
-    .proof-metrics-row { flex-direction: column; align-items: center; gap: 10px; }
-    .nav-desktop { display: none; }
-  }
-</style>
+  </script>
 </head>
-<body>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col">
 
-<!-- Header -->
-<header class="site-header">
-  <div class="header-inner">
-    <a href="index.html" class="logo-area">
-      <img src="assets/logo.png" alt="HIGHZONE BIO" class="logo-img" onerror="this.src='../assets/logo.png'">
-      <div class="logo-text">
-        <span class="logo-title">하이존바이오</span>
-        <span class="logo-sub">OPEN ECONOMY HUB</span>
+  <!-- 최상단 회사 공식 홈페이지 연결 바 -->
+  <div class="bg-emerald-950/90 border-b border-emerald-800/50 text-xs py-2 px-4 sm:px-10">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center gap-2 text-emerald-300 font-semibold">
+        <span>🌱 하이존바이오(HIGHZONE BIO) 본사 직영 100% 정품 공식 스토어</span>
       </div>
-    </a>
-    <nav class="nav-desktop">
-      <a href="https://highzonebio-kr.surge.sh" target="_blank">🛒 공식 쇼핑몰</a>
-      <a href="producer.html">🌱 생산자·파트너</a>
-      <a href="invest.html">💼 투자자 IR</a>
-    </nav>
-    <a href="invest.html#contact" class="header-cta">문의하기</a>
-  </div>
-</header>
-
-<!-- Hero Section (Compact: 1.5 Scroll Goal) -->
-<section class="hub-hero">
-  <div class="wrap">
-    <div class="hub-badge">
-      <span class="material-symbols-outlined" style="font-size:14px;">energy_savings_leaf</span>
-      HIGHZONE BIO · 1-CORE 3-DOORS GATEWAY
-    </div>
-    <h1>베란다 화분 하나에서<br><span style="color:var(--gold-light);">논밭까지, 기술로 잇다</span></h1>
-    <p class="lead">
-      독보적인 <strong>이온화 탄소 기술</strong>과 사람이 살맛 나는 <strong>자율순환 오픈 이코노미</strong>.<br>
-      당신의 목적에 맞는 문으로 입장하세요.
-    </p>
-
-    <!-- 2 Impactful Proof Metrics -->
-    <div class="proof-metrics-row">
-      <div class="proof-pill">
-        <span class="proof-num">+340%</span>
-        <div class="proof-txt"><strong>이온화 탄소 영양 흡수율</strong><br>화학비료 대비 뿌리 세포막 직접 전달</div>
-      </div>
-      <div class="proof-pill">
-        <span class="proof-num">+41%</span>
-        <div class="proof-txt"><strong>3개년 공인 실증 낟알수 증대</strong><br>은(Ag)·셀레늄 기능성 미네랄 검증</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 3-DOORS GATEWAY (Core Hub Action) -->
-<section class="gateway-sec">
-  <div class="wrap">
-    <div class="gateway-head">
-      <h2>당신의 문(Door)을 선택하세요</h2>
-      <p>소비자, 생산자, 투자자가 하나의 시스템 안에서 가치를 자율 순환시킵니다.</p>
-    </div>
-
-    <div class="gateway-grid">
-      <!-- Door 1: Consumer -->
-      <div class="door-card c-consumer">
-        <div class="door-top">
-          <div class="door-step">DOOR 01 · CONSUMER</div>
-          <div class="door-icon-box">
-            <span class="material-symbols-outlined" style="font-size:28px;">shopping_basket</span>
-          </div>
-          <h3>순수 소비자</h3>
-          <p class="desc">동네 스마트팜 당일 수확 무농약 안심 먹거리와 소비가 소득이 되는 15% HZP 배당 적립 쇼핑몰.</p>
-          <ul class="door-features">
-            <li><span class="material-symbols-outlined">check</span> 당일 수확 무농약 쌈채소 직배송</li>
-            <li><span class="material-symbols-outlined">check</span> 소비액의 15% 생산베드 지분 적립</li>
-            <li><span class="material-symbols-outlined">check</span> 반경 3~10km 로컬 직거래 픽업</li>
-          </ul>
-        </div>
-        <a href="https://highzonebio-kr.surge.sh" target="_blank" class="door-btn">
-          <span>쇼핑몰 바로가기</span>
-          <span class="material-symbols-outlined" style="font-size:16px;">open_in_new</span>
+      <div class="flex items-center gap-4">
+        <a href="http://kr.highzonebio.com" target="_blank" class="text-white hover:text-emerald-300 font-bold flex items-center gap-1 transition">
+          🏢 회사 및 기술 소개 (국내 공식홈페이지) →
         </a>
-      </div>
-
-      <!-- Door 2: Producer / Partner -->
-      <div class="door-card c-producer" style="border-color:var(--gold); box-shadow:0 8px 25px rgba(176,138,78,0.12);">
-        <div class="door-top">
-          <div class="door-step" style="color:var(--gold);">DOOR 02 · PRODUCER & PARTNER</div>
-          <div class="door-icon-box">
-            <span class="material-symbols-outlined" style="font-size:28px;">storefront</span>
-          </div>
-          <h3>1인 생산자 · 파트너</h3>
-          <p class="desc">사진 1장과 영상으로 30초 만에 열리는 나만의 미니홈피 스토어 & 1대 직추천 평생 3% 리워드 파트너십.</p>
-          <ul class="door-features">
-            <li><span class="material-symbols-outlined">check</span> 30초 원클릭 미니홈피 생성</li>
-            <li><span class="material-symbols-outlined">check</span> 다단계가 아닌 합법 1대 평생 3% 리워드</li>
-            <li><span class="material-symbols-outlined">check</span> 본사 통합몰 동시 노출 & 판로 확보</li>
-          </ul>
-        </div>
-        <a href="producer.html" class="door-btn">
-          <span>생산자·파트너 안내 보기</span>
-          <span class="material-symbols-outlined" style="font-size:16px;">arrow_forward</span>
-        </a>
-      </div>
-
-      <!-- Door 3: Investor -->
-      <div class="door-card c-investor">
-        <div class="door-top">
-          <div class="door-step">DOOR 03 · INVESTOR & IR</div>
-          <div class="door-icon-box">
-            <span class="material-symbols-outlined" style="font-size:28px;">analytics</span>
-          </div>
-          <h3>스마트 투자자 · 제휴</h3>
-          <p class="desc">거품 낀 투자가 아닌, 매일 수확되는 실물 온실 IoT 생육 데이터 기반 Proof-of-Trust 지분 펀딩 & 양평 플래그십.</p>
-          <ul class="door-features">
-            <li><span class="material-symbols-outlined">check</span> 1-Core 3-Doors 자율순환 엔진</li>
-            <li><span class="material-symbols-outlined">check</span> 온실 IoT 실시간 신뢰증명 펀딩</li>
-            <li><span class="material-symbols-outlined">check</span> 양평 랜드마크 & 임실 체인 거점</li>
-          </ul>
-        </div>
-        <a href="invest.html" class="door-btn">
-          <span>투자·IR 상세자료 보기</span>
-          <span class="material-symbols-outlined" style="font-size:16px;">arrow_forward</span>
+        <span class="text-slate-600">|</span>
+        <a href="http://highzonebio.com" target="_blank" class="text-slate-300 hover:text-emerald-300 font-bold flex items-center gap-1 transition">
+          🌐 Global Corporate Site (EN) →
         </a>
       </div>
     </div>
   </div>
-</section>
 
-<!-- Trust Strip -->
-<div class="trust-strip">
-  <div class="wrap">
-    <div class="trust-badges-grid">
-      <div class="trust-badge-item">
-        <span class="material-symbols-outlined">school</span>
-        <span>전주대학교 벤처창업관 산학협력 R&D</span>
+  <!-- 메인 헤더 -->
+  <header class="sticky top-0 z-40 bg-slate-950/90 backdrop-blur-xl border-b border-slate-800 px-4 sm:px-10 py-4">
+    <div class="max-w-7xl mx-auto flex items-center justify-between gap-4">
+      <a href="#" class="flex items-center gap-3">
+        <img src="assets/logo.png" alt="HIGHZONE BIO" class="h-10 w-auto object-contain" onerror="this.style.display='none'">
+        <div>
+          <div class="text-xl font-black tracking-wider text-white">HIGHZONE <span class="text-emerald-500">BIO MALL</span></div>
+          <div class="text-[10px] text-slate-400 font-bold tracking-widest uppercase">Official Direct Store · 본사 직영 전문몰</div>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 text-sm font-bold text-slate-300">
+        <a href="#products" class="hover:text-emerald-400 transition">전 제품 스토어</a>
+        <a href="#packages" class="hover:text-emerald-400 transition">전 생육기 풀세트 (할인)</a>
+        <a href="http://kr.highzonebio.com" target="_blank" class="hover:text-emerald-400 transition">탄소·이온 기술원리</a>
+        <a href="http://highzonebio.com" target="_blank" class="hover:text-emerald-400 transition">수출/글로벌(EN)</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <button onclick="toggleCart()" class="relative px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs sm:text-sm font-extrabold flex items-center gap-2 shadow-lg shadow-emerald-900/40 transition cursor-pointer">
+          <span>🛒 장바구니</span>
+          <span id="cartCountBadge" class="px-2 py-0.5 rounded-full bg-white text-emerald-900 text-xs font-black">0</span>
+        </button>
       </div>
-      <div class="trust-badge-item">
-        <span class="material-symbols-outlined">verified</span>
-        <span>이온화 탄소 담체 특허 보유</span>
+    </div>
+  </header>
+
+  <!-- 히어로 배너 -->
+  <section class="relative overflow-hidden border-b border-slate-800 bg-gradient-to-b from-emerald-950/40 via-slate-950 to-slate-950 py-14 sm:py-20 px-4 sm:px-10">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+      <div class="lg:col-span-7 space-y-6">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/40 text-emerald-400 text-xs font-extrabold">
+          ⚡ 작물 생체이용률 85% 이상 실증 · 탄소 캐리어 & 정밀 이온 포뮬러
+        </div>
+        <h1 class="text-3xl sm:text-5xl font-black leading-tight text-white">
+          농업에 탄소를 입히다,<br>
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-sky-400">
+            하이존바이오 본사 공식 전문몰
+          </span>
+        </h1>
+        <p class="text-sm sm:text-base text-slate-300 leading-relaxed max-w-2xl">
+          초기 발근부터 생육, 스트레스 방어, 착색·당도 완성, 그리고 염류 집적 토양 복원까지 — 하이존바이오의 6대 핵심 포뮬러 정품을 본사 직영으로 가장 빠르고 정확하게 공급합니다.
+        </p>
+        <div class="flex flex-wrap gap-3 pt-2">
+          <a href="#products" class="px-6 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm shadow-lg shadow-emerald-900/50 transition">
+            6대 핵심 제품 바로 구매하기 ↓
+          </a>
+          <a href="http://kr.highzonebio.com" target="_blank" class="px-5 py-3.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-200 font-bold text-sm transition">
+            🏢 국내 회사소개 홈페이지 보기 →
+          </a>
+          <a href="http://highzonebio.com" target="_blank" class="px-5 py-3.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-200 font-bold text-sm transition">
+            🌐 해외 글로벌 홈페이지 보기 →
+          </a>
+        </div>
       </div>
-      <div class="trust-badge-item">
-        <span class="material-symbols-outlined">science</span>
-        <span>공인 농가 3개년 실증 완료</span>
+
+      <div class="lg:col-span-5 bg-slate-900/80 border border-emerald-500/30 rounded-3xl p-6 flex flex-col items-center text-center space-y-4 shadow-2xl">
+        <img src="assets/prod-grow.png" alt="하이존바이오 6대 포뮬러 라인업" class="w-full max-h-64 object-contain" onerror="this.src='assets/prod-grow.png'">
+        <div class="text-xs text-emerald-300 font-bold">▲ 하이존바이오 6대 생육 단계별 정밀 이온 포뮬러 전 라인업</div>
       </div>
-      <div class="trust-badge-item">
-        <span class="material-symbols-outlined">shield</span>
-        <span>ABASPO 99.9% 천연 살균 인증</span>
+    </div>
+  </section>
+
+  <!-- 카테고리 필터 & 6대 단품 스토어 -->
+  <main id="products" class="max-w-7xl mx-auto w-full py-14 px-4 sm:px-10 space-y-10 flex-1">
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-slate-800 pb-6">
+      <div>
+        <span class="text-xs font-extrabold text-emerald-400 uppercase tracking-widest">HIGHZONE BIO 6 FORMULATIONS</span>
+        <h2 class="text-2xl sm:text-3xl font-black text-white mt-1">생육 단계별 6대 핵심 제품</h2>
+      </div>
+      <div class="flex flex-wrap gap-2" id="categoryButtons">
+        <button onclick="filterCategory('all')" class="cat-btn active px-4 py-2 rounded-full text-xs font-bold bg-emerald-600 text-white cursor-pointer">전체 보기 (6)</button>
+        <button onclick="filterCategory('growth')" class="cat-btn px-4 py-2 rounded-full text-xs font-bold bg-slate-900 text-slate-300 border border-slate-800 hover:border-emerald-500 cursor-pointer">생육·발근 (1~3단계)</button>
+        <button onclick="filterCategory('quality')" class="cat-btn px-4 py-2 rounded-full text-xs font-bold bg-slate-900 text-slate-300 border border-slate-800 hover:border-emerald-500 cursor-pointer">방어·착색·토양복원 (4~6단계)</button>
+      </div>
+    </div>
+
+    <!-- 상품 그리드 -->
+    <div id="productGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7"></div>
+
+    <!-- 전 생육기 시너지 패키지 섹션 -->
+    <section id="packages" class="pt-12">
+      <div class="bg-gradient-to-r from-emerald-950/70 via-slate-900 to-teal-950/70 border-2 border-emerald-500/40 rounded-3xl p-6 sm:p-10 space-y-6">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div class="space-y-2">
+            <span class="px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 text-xs font-extrabold">★ 농가 베스트셀러 패키지</span>
+            <h3 class="text-2xl sm:text-3xl font-black text-white">하이존바이오 6종 전 생육기 마스터 풀세트 (1박스/6병)</h3>
+            <p class="text-xs sm:text-sm text-slate-300 max-w-2xl">
+              프로그로우 + 아마존미네랄 + 프로루트 + 프로쉴드 + 프로컬러 + 제5원소 6종 전 라인업을 한 번에 구비하여 파종·정식부터 수확기 당도·착색까지 완벽하게 관리하는 농가 전용 특별 패키지입니다.
+            </p>
+          </div>
+          <div class="text-left md:text-right space-y-2 flex-shrink-0">
+            <div class="text-xs text-slate-400 line-through">정가 합계 294,000원</div>
+            <div class="text-3xl font-black text-emerald-400">249,000원 <span class="text-xs text-amber-300 font-bold">(15% 특별할인)</span></div>
+            <button onclick="addToCart('pkg-master')" class="w-full md:w-auto px-6 py-3.5 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-sm font-extrabold shadow-lg transition cursor-pointer">
+              🛒 6종 풀세트 장바구니 담기
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 장바구니 & 바로 주문 슬라이드 모달 -->
+  <div id="cartDrawer" class="fixed inset-0 z-50 hidden">
+    <div class="absolute inset-0 bg-black/70 backdrop-blur-sm" onclick="toggleCart()"></div>
+    <div class="absolute right-0 top-0 h-full w-full max-w-md bg-slate-900 border-l border-slate-800 p-6 flex flex-col justify-between overflow-y-auto">
+      <div class="space-y-6">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-4">
+          <h3 class="text-lg font-black text-white">🛒 장바구니 및 바로 주문</h3>
+          <button onclick="toggleCart()" class="text-slate-400 hover:text-white text-sm font-bold cursor-pointer">✕ 닫기</button>
+        </div>
+
+        <div id="cartItemsList" class="space-y-3"></div>
+
+        <div class="border-t border-slate-800 pt-4 flex items-center justify-between">
+          <span class="text-sm font-bold text-slate-300">총 결제 예정 금액</span>
+          <span id="cartTotalPrice" class="text-2xl font-black text-emerald-400">0원</span>
+        </div>
+
+        <!-- 주문자 정보 입력 -->
+        <form id="orderForm" onsubmit="submitOrder(event)" class="space-y-3 pt-2 border-t border-slate-800">
+          <div class="text-xs font-extrabold text-emerald-400">📦 배송지 및 주문자 정보 입력</div>
+          <input type="text" id="buyerName" required placeholder="주문자 성함 / 농가명 *" class="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-sm text-white">
+          <input type="tel" id="buyerPhone" required placeholder="연락처 (예: 010-0000-0000) *" class="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-sm text-white">
+          <input type="text" id="buyerAddr" required placeholder="배송 받을 주소 *" class="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-sm text-white">
+          <input type="text" id="buyerCrop" placeholder="재배 작물 및 평수 (선택 입력 시 맞춤 시비표 동봉)" class="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-sm text-white">
+          <button type="submit" class="w-full py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-black text-sm shadow-lg transition cursor-pointer">
+            ✅ 지금 바로 주문 접수하기
+          </button>
+        </form>
       </div>
     </div>
   </div>
-</div>
 
-<!-- Footer -->
-<footer>
-  <div class="wrap">
-    <div class="footer-links">
-      <a href="index.html">허브 메인</a>
-      <a href="https://highzonebio-kr.surge.sh" target="_blank">소비자 쇼핑몰</a>
-      <a href="producer.html">생산자·파트너</a>
-      <a href="invest.html">투자자 IR</a>
+  <!-- 푸터 (회사 공식 홈페이지 양방향 연결) -->
+  <footer class="bg-slate-900 border-t border-slate-800 py-10 px-4 sm:px-10 text-xs text-slate-400">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+      <div class="space-y-1.5">
+        <div class="text-sm font-black text-white">하이존바이오 공식 전문 쇼핑몰 (HIGHZONE BIO OFFICIAL MALL)</div>
+        <p>농업에 탄소를 입히다 — 탄소 캐리어 및 정밀 이온 농업 바이오 기술 전문 기업</p>
+        <p>© 2026 HIGHZONE BIO Inc. All rights reserved.</p>
+      </div>
+      <div class="flex flex-wrap gap-3">
+        <a href="http://kr.highzonebio.com" target="_blank" class="px-4 py-2 rounded-lg bg-slate-950 border border-slate-800 hover:border-emerald-500 text-slate-200 font-bold transition">
+          🏢 하이존바이오 국내 공식 홈페이지
+        </a>
+        <a href="http://highzonebio.com" target="_blank" class="px-4 py-2 rounded-lg bg-slate-950 border border-slate-800 hover:border-emerald-500 text-slate-200 font-bold transition">
+          🌐 HIGHZONE BIO Global Website (EN)
+        </a>
+      </div>
     </div>
-    <p>HIGHZONE BIO · 1-Core 3-Doors 오픈 이코노미 플랫폼</p>
-    <p style="color:#787163; margin-top:4px;">전북 전주시 완산구 백제대로 303 전주대학교 벤처창업관</p>
-  </div>
-</footer>
+  </footer>
 
+  <script>
+    const catalog = [
+      {
+        id: "grow",
+        cat: "growth",
+        step: "01단계 · 초기 생육",
+        name: "프로그로우 (PRO GROW)",
+        sub: "균형생육 · 잎·줄기 최고 활동 촉진 (500ml)",
+        desc: "이온화 질소와 탄소 캐리어 복합체가 엽면적 지수(LAI)를 빠르게 확대하고 초기 영양 생장을 극대화합니다.",
+        crops: "엽채류, 노지 과채류, 시설원예, 육묘기",
+        price: 45000,
+        img: "assets/prod-grow.png"
+      },
+      {
+        id: "mineral",
+        cat: "growth",
+        step: "02단계 · 미네랄 활성",
+        name: "아마존 미네랄 (AMAZON MINERAL)",
+        sub: "미량요소 결핍 해소 및 토양 활력 개선 (500ml)",
+        desc: "휴믹산 탄소 캐리어와 이온화 미량 원소 복합체가 육안으로 보이지 않는 미량요소 결핍을 선제적으로 해소합니다.",
+        crops: "과수류(사과·포도·감귤), 시설원예, 특용작물",
+        price: 48000,
+        img: "assets/prod-mineral.png"
+      },
+      {
+        id: "root",
+        cat: "growth",
+        step: "03단계 · 뿌리 발근",
+        name: "프로루트 (PRO ROOT)",
+        sub: "뿌리 발달 · 곁뿌리 및 미세근 집중 증식 (500ml)",
+        desc: "이온화 인산과 옥신 호환 탄소 매트릭스가 토양 내 근권 표면적을 넓혀 조기 활착과 강한 흡수력을 완성합니다.",
+        crops: "정식 이식 작물, 마늘·양파·감자 구근류, 과수",
+        price: 48000,
+        img: "assets/prod-root.png"
+      },
+      {
+        id: "shield",
+        cat: "quality",
+        step: "04단계 · 스트레스 방어",
+        name: "프로쉴드 (PRO SHIELD)",
+        sub: "작물 보호 · 냉해·고온·병해충 물리적 방어 (500ml)",
+        desc: "이온 규소와 칼륨의 정밀 밸런스 및 항산화 탄소 복합물이 세포벽을 두껍게 만들어 이상기후와 도복을 예방합니다.",
+        crops: "시설 하우스, 딸기·수박·오이, 벼·수도작",
+        price: 50000,
+        img: "assets/prod-shield.png"
+      },
+      {
+        id: "color",
+        cat: "quality",
+        step: "05단계 · 착색·고당도",
+        name: "프로컬러 (PRO COLOR)",
+        sub: "안토시아닌 발현 · 특등품 색택 및 당도(Brix) 향상 (500ml)",
+        desc: "이온화 칼슘·칼륨 복합제와 안토시아닌 촉진 물질이 과실의 자연 착색과 당 축적을 가속화하고 저장성을 높입니다.",
+        crops: "사과·복숭아·베리류, 토마토·파프리카·고추",
+        price: 50000,
+        img: "assets/prod-color.png"
+      },
+      {
+        id: "fifth",
+        cat: "quality",
+        step: "06단계 · 토양 염류 복원",
+        name: "제5원소 (The 5th Element)",
+        sub: "5대 핵심 이온 밸런스 · 염류집적 및 연작장해 해소 (500ml)",
+        desc: "핵심 5대 원소(N, P, K, Ca, Mg)를 특허 이온 복합체 비율로 조성하여 노후 시설 토양을 정화하고 이온 균형을 복원합니다.",
+        crops: "염류 집적 하우스, 연작 장해 토양, 대규모 노지",
+        price: 53000,
+        img: "assets/prod-fifth.png"
+      },
+      {
+        id: "pkg-master",
+        cat: "package",
+        step: "풀세트 · 15% 할인",
+        name: "하이존바이오 6종 전 생육기 마스터 풀세트",
+        sub: "6대 핵심 포뮬러 전 제품 패키지 (총 6병)",
+        desc: "1단계부터 6단계까지 전 생육 주기를 빈틈없이 관리하는 농가 베스트셀러 패키지입니다.",
+        crops: "전 작물 전 생육기 맞춤 처방",
+        price: 249000,
+        img: "assets/prod-grow.png"
+      }
+    ];
+
+    let cart = [];
+    let currentFilter = 'all';
+
+    function renderProducts() {
+      const grid = document.getElementById('productGrid');
+      const items = catalog.filter(p => p.cat !== 'package' && (currentFilter === 'all' || p.cat === currentFilter));
+      grid.innerHTML = items.map(p => 
+        <div class="bg-slate-900 border border-slate-800 hover:border-emerald-500/60 rounded-3xl p-6 flex flex-col justify-between space-y-5 transition shadow-xl">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="px-3 py-1 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 text-xs font-extrabold"></span>
+              <span class="text-xs text-slate-400 font-semibold">본사 정품</span>
+            </div>
+            <div class="h-52 bg-slate-950 rounded-2xl p-4 flex items-center justify-center border border-slate-800/80">
+              <img src="" alt="" class="max-h-44 w-auto object-contain transition hover:scale-105">
+            </div>
+            <div>
+              <h3 class="text-xl font-black text-white"></h3>
+              <p class="text-xs font-bold text-emerald-400 mt-0.5"></p>
+              <p class="text-xs text-slate-300 mt-3 leading-relaxed"></p>
+            </div>
+            <div class="bg-slate-950/80 p-3 rounded-xl border border-slate-800 text-[11px] text-slate-400">
+              <strong class="text-slate-200">권장 작물:</strong> 
+            </div>
+          </div>
+
+          <div class="pt-3 border-t border-slate-800 flex items-center justify-between gap-3">
+            <div>
+              <div class="text-[11px] text-slate-400">공식 판매가</div>
+              <div class="text-xl font-black text-white">원</div>
+            </div>
+            <button onclick="addToCart('')" class="px-5 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-extrabold transition shadow cursor-pointer">
+              🛒 담기 / 구매
+            </button>
+          </div>
+        </div>
+      ).join('');
+    }
+
+    function filterCategory(cat) {
+      currentFilter = cat;
+      renderProducts();
+    }
+
+    function addToCart(id) {
+      const prod = catalog.find(p => p.id === id);
+      if (!prod) return;
+      const existing = cart.find(c => c.id === id);
+      if (existing) {
+        existing.qty += 1;
+      } else {
+        cart.push({ ...prod, qty: 1 });
+      }
+      updateCartUI();
+      document.getElementById('cartDrawer').classList.remove('hidden');
+    }
+
+    function changeQty(id, delta) {
+      const idx = cart.findIndex(c => c.id === id);
+      if (idx === -1) return;
+      cart[idx].qty += delta;
+      if (cart[idx].qty <= 0) cart.splice(idx, 1);
+      updateCartUI();
+    }
+
+    function updateCartUI() {
+      const count = cart.reduce((sum, i) => sum + i.qty, 0);
+      const total = cart.reduce((sum, i) => sum + i.price * i.qty, 0);
+      document.getElementById('cartCountBadge').innerText = count;
+      document.getElementById('cartTotalPrice').innerText = total.toLocaleString() + '원';
+
+      const listEl = document.getElementById('cartItemsList');
+      if (cart.length === 0) {
+        listEl.innerHTML = '<div class="text-xs text-slate-500 py-8 text-center">장바구니에 담긴 상품이 없습니다.</div>';
+        return;
+      }
+      listEl.innerHTML = cart.map(item => 
+        <div class="bg-slate-950 p-3.5 rounded-2xl border border-slate-800 flex items-center justify-between gap-3">
+          <div>
+            <div class="text-xs font-bold text-white"></div>
+            <div class="text-xs text-emerald-400 font-bold mt-0.5">원</div>
+          </div>
+          <div class="flex items-center gap-2">
+            <button onclick="changeQty('', -1)" class="w-7 h-7 rounded-lg bg-slate-800 text-white font-bold cursor-pointer">-</button>
+            <span class="text-xs font-bold w-5 text-center"></span>
+            <button onclick="changeQty('', 1)" class="w-7 h-7 rounded-lg bg-slate-800 text-white font-bold cursor-pointer">+</button>
+          </div>
+        </div>
+      ).join('');
+    }
+
+    function toggleCart() {
+      document.getElementById('cartDrawer').classList.toggle('hidden');
+    }
+
+    function submitOrder(e) {
+      e.preventDefault();
+      if (cart.length === 0) {
+        alert('먼저 구매하실 상품을 장바구니에 담아주세요!');
+        return;
+      }
+      const name = document.getElementById('buyerName').value;
+      const total = cart.reduce((sum, i) => sum + i.price * i.qty, 0);
+      alert(감사합니다,  고객님!\n총 주문금액 원 주문이 정상 접수되었습니다.\n하이존바이오 본사 출고팀에서 곧 해피콜로 연락드리겠습니다.);
+      cart = [];
+      updateCartUI();
+      document.getElementById('orderForm').reset();
+      toggleCart();
+    }
+
+    renderProducts();
+  </script>
 </body>
 </html>
