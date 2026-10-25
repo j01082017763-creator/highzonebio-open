@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://shop.highzonebio.com/sitemap.xml
+Sitemap: https://kr.highzonebio.com/sitemap.xml
