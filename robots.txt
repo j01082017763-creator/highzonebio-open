@@ -25,4 +25,4 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
-Sitemap: https://kr.highzonebio.com/sitemap.xml
+Sitemap: https://kr.hizonebio.com/sitemap.xml
