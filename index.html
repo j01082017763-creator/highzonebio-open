@@ -18,21 +18,98 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Corporation",
-  "name": "하이존바이오 (HIGHZONE BIO)",
-  "url": "https://kr.highzonebio.com",
-  "logo": "https://kr.highzonebio.com/assets/logo.png",
-  "description": "특허 이온화 탄소 담체, 고농축 기능성 미네랄(은 수용액, 셀레늄, 바이오레드졸), 100% 천연 식물 발효 공간방역(ABASPO), AI 식물병원을 연구·제조하는 대한민국 애그리바이오테크 기업",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "완산구 백제대로 303 전주대학교 벤처창업관",
-    "addressLocality": "전주시",
-    "addressRegion": "전라북도",
-    "addressCountry": "KR"
-  },
-  "sameAs": [
-    "https://highzonebio.com",
-    "https://shop.highzonebio.com"
+  "@graph": [
+    {
+      "@type": "Corporation",
+      "@id": "https://kr.highzonebio.com/#corporation",
+      "name": "주식회사 하이존바이오 (HIGHZONE BIO Inc.)",
+      "alternateName": ["하이존바이오", "HIGHZONE BIO", "하이존바이오 전주대 R&D 연구소"],
+      "url": "https://kr.highzonebio.com",
+      "logo": "https://kr.highzonebio.com/assets/logo.png",
+      "telephone": "+82-63-855-5001",
+      "email": "partner@highzonebio.kr",
+      "description": "특허 제10-2493517호 이온화 탄소 담체, 고농축 기능성 미네랄(순수 은 수용액 Ag, 셀레늄 Se, 게르마늄 Ge, 바이오레드졸, 제5원소 도복왕), 100% 천연 식물 발효 공간방역(ABASPO 뿜어 '풀어주마'), 닥터 그린 AI 식물병원을 연구·제조하는 대한민국 애그리바이오테크 기업",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "전북특별자치도 전주시 완산구 천잠로 303 전주대학교 벤처창업관 #108 산학협력 R&D 연구소",
+        "addressLocality": "전주시 완산구",
+        "addressRegion": "전북특별자치도",
+        "postalCode": "55069",
+        "addressCountry": "KR"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+82-63-855-5001",
+        "contactType": "customer service & B2B sales",
+        "areaServed": "KR",
+        "availableLanguage": ["Korean", "English"],
+        "hoursAvailable": "Mo-Fr 09:00-18:00"
+      },
+      "knowsAbout": [
+        "특허 제10-2493517호 (이온화 탄소 담체 및 킬레이트 미네랄 복합 조성물 제조 원천 특허)",
+        "KTR 한국화학융합시험연구원 99.9% 항균·살균 공인 시험 완료",
+        "KEMTI 한국환경측정기시험연구원 포름알데히드 99.9% 제거·악취/VOC 94% 분해·경구독성 및 반복투여독성 시험 합격 ('풀어주마')",
+        "공인 시험포장 3개년 실증 (뿌리 영양 흡수율 85% 이상, 벼 이삭 수 +24.5%, 낟알 수 +41.0% 증대)"
+      ],
+      "sameAs": [
+        "https://highzonebio.com",
+        "https://shop.highzonebio.com"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kr.highzonebio.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "시설하우스 연작장해(염류 집적)를 해결하는 가장 효과적인 비료는 무엇인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "하이존바이오의 특허 제10-2493517호 이온화 탄소 담체 기술이 적용된 '바이오레드졸(PRO ROOT)'과 '바이오 블랙홀'입니다. 토양에 굳어 있는 불용성 염류를 나노 탄소 셔틀이 재킬레이트화하여 식물이 흡수 가능한 유효 영양소로 전환하고, 흰색 잔뿌리(세근) 발달을 200% 이상 촉진해 영양 흡수율 85% 이상(+340% 향상)을 달성합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "고추 탄저병, 흰가루병, 잿빛곰팡이를 약제 내성과 잔류농약 걱정 없이 방제할 수 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "하이존바이오 '순수 은수용액 Ag(PRO SHIELD)'는 KTR(한국화학융합시험연구원) 99.9% 항균·살균 시험을 완료한 나노 은 이온 솔루션입니다. 병원성 곰팡이와 세균의 호흡 효소(-SH기)를 물리화학적으로 차단하므로 내성균이 생기지 않으며 잔류독성이 없어 수확 직전까지 안전하게 사용할 수 있습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "벼 도복(쓰러짐) 방지와 태풍 과수 낙과 방지에 어떤 제품을 사용해야 하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "5,000배 초고농축 규소·미네랄 제형인 '제5원소 도복왕(100ml)'을 처방합니다. 줄기 세포벽과 과수 열매 자루(과경) 결합 조직을 대나무처럼 강화하여 3개년 공인 실증 결과 도복 피해 0평, 벼 이삭 수 +24.5%, 낟알 수 +41.0% 증대 및 태풍 낙과율 0%를 입증했습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "글로벌 6대 제형(PRO GROW 등)과 국내 공식 쇼핑몰 제품(쑥쑥자라미2 등)은 어떻게 매칭되나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "동일한 전주대 산학협력 R&D 연구소 원천 포뮬러로, 한국 농가 현장 처방에 맞춰 PRO GROW = 쑥쑥자라미2, PRO ROOT = 바이오레드졸, PRO SHIELD = 순수 은수용액 Ag / 굿바이충, PRO COLOR = 황금수 프리미엄 / 에이스 인카, AMAZON MINERAL = 셀레늄·게르마늄·마그네슘 수용액, 제5원소 = 제5원소 도복왕으로 공식 쇼핑몰(https://shop.highzonebio.com)에서 공급됩니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ABASPO(아바스포) 뿜어 공간방역은 기존 액체 소독제와 무엇이 다른가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "물방울(50㎛)보다 50만 배 작은 0.0001㎛ 기체 분자 확산 방식으로 100% 천연 식물 발효 소독인자 '풀어주마'를 온실·축사·실내 공간 구석구석 비접촉 침투시킵니다. KTR 99.9% 살균 인증 및 KEMTI(한국환경측정기시험연구원) 포름알데히드 99.9% 제거, 악취·VOC 94% 분해, 경구독성·반복투여독성 시험 합격을 완료했습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "농협 계통납품이나 작목반·지자체 보조사업 대량 구매 시 어떤 지원이 제공되나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "전주대학교 벤처창업관 산학협력 R&D 연구소 직통(063-855-5001)을 통해 10~20병 박스 우대 단가 및 10L·20L 말통 벌크 공급을 지원하며, 농업용 영세율 세금계산서, 특허증(제10-2493517호), KTR·KEMTI 공인 시험성적서, 보조사업 증빙 서류 일체를 즉시 발급해 드립니다."
+          }
+        }
+      ]
+    }
   ]
 }
 </script>
@@ -323,11 +400,22 @@
     display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 20px;
   }
   .formula-pill {
+    display: block;
     background: var(--paper); border: 1px solid var(--line);
     border-radius: 10px; padding: 10px 12px;
+    transition: all 0.2s ease;
+    position: relative;
   }
-  .formula-pill strong { display: block; font-size: 13px; color: var(--forest); }
-  .formula-pill span { font-size: 11.5px; color: #696253; }
+  a.formula-pill:hover {
+    background: #ffffff; border-color: var(--gold);
+    transform: translateY(-2px); box-shadow: 0 4px 12px rgba(176,138,78,0.2);
+  }
+  .formula-pill strong { display: block; font-size: 13px; color: var(--forest); line-height: 1.35; }
+  .formula-pill span { display: block; font-size: 11.5px; color: #696253; margin-top: 2px; }
+  .formula-pill .pill-shop-tag {
+    display: inline-block; font-size: 10.5px; font-weight: 700; color: #12211a;
+    background: rgba(176,138,78,0.22); padding: 1px 6px; border-radius: 4px; margin-top: 4px;
+  }
 
   .tech-stat-banner {
     display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
@@ -835,18 +923,42 @@
                 과학 스토리 읽기 <span class="material-symbols-outlined" style="font-size:14px;">arrow_forward</span>
               </button>
             </div>
-            <h3>PRO GROW 외 6대 정밀 포뮬러</h3>
+            <h3>PRO GROW 외 6대 정밀 포뮬러 <span style="font-size:13px; font-weight:600; color:var(--gold);">(클릭 시 공식 쇼핑몰 매칭 처방 이동)</span></h3>
             <p>
               탄소를 이온 단위로 초정밀 제어하여 미네랄을 안정적으로 포집하고, 뿌리 세포막까지 고속으로 전달하는 <strong>'이온 셔틀'</strong> 기술입니다. 
               시비된 영양의 불용화 유실을 차단하며, 토양 유기탄소(SOC) 축적으로 치명적인 연작 장해를 근본적으로 완화합니다.
             </p>
             <div class="formula-grid">
-              <div class="formula-pill"><strong>PRO GROW</strong><span>균형생육 & 영양순환</span></div>
-              <div class="formula-pill"><strong>AMAZON MINERAL</strong><span>미량원소 이온화 공급</span></div>
-              <div class="formula-pill"><strong>PRO ROOT</strong><span>흡수 표면적 뿌리발달</span></div>
-              <div class="formula-pill"><strong>PRO SHIELD</strong><span>냉해·스트레스 방어막</span></div>
-              <div class="formula-pill"><strong>PRO COLOR</strong><span>고당도 축적 & 착색</span></div>
-              <div class="formula-pill"><strong>제5원소</strong><span>프리미엄 복합 나노농축</span></div>
+              <a href="https://shop.highzonebio.com/product-detail.html?id=grow-500" onclick="event.stopPropagation();" class="formula-pill" title="공식 쇼핑몰 쑥쑥자라미2 상세페이지로 이동">
+                <strong>PRO GROW (쑥쑥자라미2)</strong>
+                <span>균형생육 &amp; 광합성·비대</span>
+                <em class="pill-shop-tag">국내처방: 쑥쑥자라미2 ➔</em>
+              </a>
+              <a href="https://shop.highzonebio.com/product-detail.html?id=selenium-500" onclick="event.stopPropagation();" class="formula-pill" title="공식 쇼핑몰 셀레늄·게르마늄 미네랄 상세페이지로 이동">
+                <strong>AMAZON MINERAL (셀레늄·게르마늄)</strong>
+                <span>기능성 나노 미네랄 이온공급</span>
+                <em class="pill-shop-tag">국내처방: 셀레늄·게르마늄 ➔</em>
+              </a>
+              <a href="https://shop.highzonebio.com/product-detail.html?id=redsol-500" onclick="event.stopPropagation();" class="formula-pill" title="공식 쇼핑몰 바이오레드졸 상세페이지로 이동">
+                <strong>PRO ROOT (바이오레드졸)</strong>
+                <span>연작장해 염류분해 &amp; 세근발달</span>
+                <em class="pill-shop-tag">국내처방: 바이오레드졸 ➔</em>
+              </a>
+              <a href="https://shop.highzonebio.com/product-detail.html?id=silver-500" onclick="event.stopPropagation();" class="formula-pill" title="공식 쇼핑몰 순수 은수용액 Ag 상세페이지로 이동">
+                <strong>PRO SHIELD (은수용액·굿바이충)</strong>
+                <span>KTR 99.9% 무농약 제균·방어</span>
+                <em class="pill-shop-tag">국내처방: 순수 은수용액 Ag ➔</em>
+              </a>
+              <a href="https://shop.highzonebio.com/product-detail.html?id=goldwater-1000" onclick="event.stopPropagation();" class="formula-pill" title="공식 쇼핑몰 황금수 프리미엄 상세페이지로 이동">
+                <strong>PRO COLOR (황금수 프리미엄)</strong>
+                <span>고당도(+2~3 Brix) 축적 &amp; 착색</span>
+                <em class="pill-shop-tag">국내처방: 황금수·에이스인카 ➔</em>
+              </a>
+              <a href="https://shop.highzonebio.com/product-detail.html?id=dobok-100" onclick="event.stopPropagation();" class="formula-pill" title="공식 쇼핑몰 제5원소 도복왕 상세페이지로 이동">
+                <strong>제5원소 (도복왕)</strong>
+                <span>5,000배 초고농축 도복·낙과방지</span>
+                <em class="pill-shop-tag">국내처방: 제5원소 도복왕 ➔</em>
+              </a>
             </div>
           </div>
           <div class="tech-stat-banner">
@@ -882,9 +994,21 @@
               화학 농약 없이도 병충해를 물리치고 작물 자체를 고부가가치 기능성 프리미엄 먹거리로 탈바꿈시킵니다.
             </p>
             <div class="formula-grid">
-              <div class="formula-pill"><strong>은 나노 수용액</strong><span>곰팡이·세균성 병해 차단</span></div>
-              <div class="formula-pill"><strong>고농축 셀레늄</strong><span>항산화 기능성 작물 전환</span></div>
-              <div class="formula-pill"><strong>바이오레드졸</strong><span>냉해 및 도복(쓰러짐) 방지</span></div>
+              <a href="https://shop.highzonebio.com/product-detail.html?id=silver-500" onclick="event.stopPropagation();" class="formula-pill">
+                <strong>순수 은 나노 수용액 Ag</strong>
+                <span>KTR 99.9% 곰팡이·세균 차단</span>
+                <em class="pill-shop-tag">처방전·구매 보기 ➔</em>
+              </a>
+              <a href="https://shop.highzonebio.com/product-detail.html?id=selenium-500" onclick="event.stopPropagation();" class="formula-pill">
+                <strong>고농축 셀레늄 수용액 Se</strong>
+                <span>항산화 기능성 프리미엄 작물</span>
+                <em class="pill-shop-tag">처방전·구매 보기 ➔</em>
+              </a>
+              <a href="https://shop.highzonebio.com/product-detail.html?id=redsol-500" onclick="event.stopPropagation();" class="formula-pill">
+                <strong>바이오레드졸 · 도복왕</strong>
+                <span>연작장해·냉해 및 도복 방지</span>
+                <em class="pill-shop-tag">처방전·구매 보기 ➔</em>
+              </a>
             </div>
           </div>
           <div class="tech-stat-banner">
@@ -998,12 +1122,36 @@
       <div class="lineup-img-frame">
         <img src="assets/products_lineup@2x.png" alt="하이존바이오 6대 핵심 바이오 제형 라인업" onerror="this.src='assets/products-lineup.png'">
         <div class="lineup-6grid">
-          <div class="lineup-6item"><strong>PRO GROW</strong><span>균형생육 · 1L</span></div>
-          <div class="lineup-6item"><strong>AMAZON</strong><span>미네랄공급 · 1L</span></div>
-          <div class="lineup-6item"><strong>PRO ROOT</strong><span>뿌리발달 · 1L</span></div>
-          <div class="lineup-6item"><strong>PRO SHIELD</strong><span>식물보호 · 1L</span></div>
-          <div class="lineup-6item"><strong>PRO COLOR</strong><span>색택·당도 · 1L</span></div>
-          <div class="lineup-6item"><strong>제5원소</strong><span>이온밸런스 · 1L</span></div>
+          <a href="https://shop.highzonebio.com/product-detail.html?id=grow-500" class="lineup-6item" style="display:block; transition:all 0.2s;">
+            <strong>PRO GROW</strong>
+            <span>국내명: 쑥쑥자라미2</span>
+            <small style="display:block; font-size:10.5px; color:#b08a4e; font-weight:700; margin-top:3px;">상세보기 ➔</small>
+          </a>
+          <a href="https://shop.highzonebio.com/product-detail.html?id=selenium-500" class="lineup-6item" style="display:block; transition:all 0.2s;">
+            <strong>AMAZON MINERAL</strong>
+            <span>국내명: 셀레늄·게르마늄</span>
+            <small style="display:block; font-size:10.5px; color:#b08a4e; font-weight:700; margin-top:3px;">상세보기 ➔</small>
+          </a>
+          <a href="https://shop.highzonebio.com/product-detail.html?id=redsol-500" class="lineup-6item" style="display:block; transition:all 0.2s;">
+            <strong>PRO ROOT</strong>
+            <span>국내명: 바이오레드졸</span>
+            <small style="display:block; font-size:10.5px; color:#b08a4e; font-weight:700; margin-top:3px;">상세보기 ➔</small>
+          </a>
+          <a href="https://shop.highzonebio.com/product-detail.html?id=silver-500" class="lineup-6item" style="display:block; transition:all 0.2s;">
+            <strong>PRO SHIELD</strong>
+            <span>국내명: 은수용액·굿바이충</span>
+            <small style="display:block; font-size:10.5px; color:#b08a4e; font-weight:700; margin-top:3px;">상세보기 ➔</small>
+          </a>
+          <a href="https://shop.highzonebio.com/product-detail.html?id=goldwater-1000" class="lineup-6item" style="display:block; transition:all 0.2s;">
+            <strong>PRO COLOR</strong>
+            <span>국내명: 황금수 프리미엄</span>
+            <small style="display:block; font-size:10.5px; color:#b08a4e; font-weight:700; margin-top:3px;">상세보기 ➔</small>
+          </a>
+          <a href="https://shop.highzonebio.com/product-detail.html?id=dobok-100" class="lineup-6item" style="display:block; transition:all 0.2s;">
+            <strong>제5원소</strong>
+            <span>국내명: 제5원소 도복왕</span>
+            <small style="display:block; font-size:10.5px; color:#b08a4e; font-weight:700; margin-top:3px;">상세보기 ➔</small>
+          </a>
         </div>
       </div>
     </div>
@@ -1446,14 +1594,14 @@
         <p style="font-size:13.5px; color:#554e40; line-height:1.6;">순수 은(Ag) 나노 수용액 및 ABASPO(뿜어) 천연 발효 솔루션 병원성 세균·곰팡이 99.9% 제균 입증</p>
       </div>
       <div style="background:var(--paper); border:1px solid var(--line); border-radius:18px; padding:24px;">
-        <span style="display:inline-block; background:var(--forest); color:#fff; font-size:11px; font-weight:700; padding:4px 10px; border-radius:6px; margin-bottom:10px;">친환경 안전성 검증</span>
-        <h4 style="font-size:18px; font-weight:800; color:var(--forest-deep); margin-bottom:6px;">잔류농약·중금속 불검출</h4>
-        <p style="font-size:13.5px; color:#554e40; line-height:1.6;">유기농업자재 공시 기준 부합 원료 사용으로 수확 당일 살포 및 GAP·무농약 인증 농가 안심 적용</p>
+        <span style="display:inline-block; background:var(--forest); color:#fff; font-size:11px; font-weight:700; padding:4px 10px; border-radius:6px; margin-bottom:10px;">KEMTI 한국환경측정기시험연구원</span>
+        <h4 style="font-size:18px; font-weight:800; color:var(--forest-deep); margin-bottom:6px;">포름알데히드 99.9%·독성 합격</h4>
+        <p style="font-size:13.5px; color:#554e40; line-height:1.6;">'풀어주마' 천연 발효 가스상 인자 포름알데히드 99.9% 제거, 악취·VOC 94% 분해, 경구·반복투여독성 합격</p>
       </div>
       <div style="background:var(--paper); border:1px solid var(--line); border-radius:18px; padding:24px;">
         <span style="display:inline-block; background:var(--forest); color:#fff; font-size:11px; font-weight:700; padding:4px 10px; border-radius:6px; margin-bottom:10px;">공인 시험포장 3개년 데이터</span>
-        <h4 style="font-size:18px; font-weight:800; color:var(--forest-deep); margin-bottom:6px;">수확량 +24.5% · 낟알 +41%</h4>
-        <p style="font-size:13.5px; color:#554e40; line-height:1.6;">수도작(벼), 과채류, 구근류, 엽채류 3개년 반복 포장 시험을 통한 수량·당도·저장성 향상 입증</p>
+        <h4 style="font-size:18px; font-weight:800; color:var(--forest-deep); margin-bottom:6px;">이삭 +24.5% · 낟알 +41.0%</h4>
+        <p style="font-size:13.5px; color:#554e40; line-height:1.6;">뿌리 영양 흡수율 85% 이상(+340% 향상), 배추 1포기 10.0kg 실증, 가락시장 최고가 낙찰 기록</p>
       </div>
     </div>
 
@@ -1544,9 +1692,14 @@
       </a>
     </div>
 
-    <div class="foot-bottom">
-      <span>HIGHZONE BIO (주식회사 하이존바이오) · 대한민국 공식 회사 홈페이지 (kr.highzonebio.com)</span>
-      <span>전북특별자치도 전주시 완산구 천잠로 303 전주대학교 벤처창업관 산학협력 R&D 연구소 | 대표전화: <a href="tel:063-855-5001" style="color:var(--gold-light); font-weight:700;">063-855-5001</a></span>
+    <div class="foot-bottom" style="flex-direction:column; gap:8px; line-height:1.6;">
+      <div style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; color:#c9c3b0; font-weight:600;">
+        <span>주식회사 하이존바이오 (HIGHZONE BIO Inc.) · 대한민국 공식 회사 홈페이지 (kr.highzonebio.com)</span>
+        <span>전북특별자치도 전주시 완산구 천잠로 303 전주대학교 벤처창업관 #108</span>
+      </div>
+      <div>
+        전주대학교 벤처창업관 산학협력 R&amp;D 연구소 (#108) | 대표전화: <a href="tel:063-855-5001" style="color:var(--gold-light); font-weight:700;">063-855-5001</a> (평일 09:00~18:00) | 원천특허: 제10-2493517호 | KTR·KEMTI 99.9% 공인시험완료 | 영세율 세금계산서·농협계통납품 지원
+      </div>
     </div>
   </div>
 </footer>
@@ -1573,32 +1726,59 @@
 <div class="modal-backdrop" id="contactModal" onclick="if(event.target === this) closeContactModal()">
   <div class="modal-content">
     <button class="modal-close" onclick="closeContactModal()">&times;</button>
-    <div class="modal-title" id="modalTitle">도입 및 납품 상담 문의</div>
-    <div class="modal-desc" id="modalDesc">하이존바이오 연구원 및 전담 상담팀에서 작물별 맞춤 처방과 대량 납품·제휴 안내를 신속히 도와드립니다.</div>
-    <form onsubmit="handleContactSubmit(event)">
-      <div class="form-group">
-        <label>문의 분야</label>
-        <select id="contactType">
-          <option value="farm">전업 농가 · 작목반 · 농협 대량 납품 및 맞춤 처방</option>
-          <option value="abaspo">ABASPO(뿜어) 천연 공간방역 온실·매장 도입</option>
-          <option value="home">가정용 수경재배 키트 및 바이오 영양제 구매 문의</option>
-          <option value="partner">국내외 유통 파트너십 및 지자체 시범사업 제휴</option>
-        </select>
+    <div id="contactFormWrap">
+      <div class="modal-title" id="modalTitle">도입 및 납품 상담 문의</div>
+      <div class="modal-desc" id="modalDesc">하이존바이오 연구원 및 전담 상담팀에서 작물별 맞춤 처방과 대량 납품·제휴 안내를 신속히 도와드립니다.</div>
+      <form id="contactForm" onsubmit="handleContactSubmit(event)">
+        <div class="form-group">
+          <label>문의 분야</label>
+          <select id="contactType">
+            <option value="전업 농가 · 작목반 · 농협 대량 납품 및 맞춤 처방">전업 농가 · 작목반 · 농협 대량 납품 및 맞춤 처방</option>
+            <option value="ABASPO(뿜어) 천연 공간방역 온실·매장 도입">ABASPO(뿜어) 천연 공간방역 온실·매장 도입</option>
+            <option value="가정용 수경재배 키트 및 바이오 영양제 구매 문의">가정용 수경재배 키트 및 바이오 영양제 구매 문의</option>
+            <option value="국내외 유통 파트너십 및 지자체 시범사업 제휴">국내외 유통 파트너십 및 지자체 시범사업 제휴</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>성함 / 농장·상호명</label>
+          <input type="text" id="contactName" required placeholder="예: 홍길동 (또는 ○○영농조합)">
+        </div>
+        <div class="form-group">
+          <label>연락처</label>
+          <input type="tel" id="contactPhone" required placeholder="010-0000-0000">
+        </div>
+        <div class="form-group">
+          <label>재배 작물 / 문의 내용 (선택)</label>
+          <textarea id="contactMsg" rows="3" placeholder="예: 벼 1만 평 도복왕 처방 문의 / 시설 딸기 하우스 3동 영양제 상담 희망"></textarea>
+        </div>
+        <button type="submit" class="btn-submit">상담 접수하기</button>
+      </form>
+    </div>
+
+    <div id="contactSuccessWrap" style="display:none; text-align:left;">
+      <div style="display:flex; align-items:center; gap:8px; color:var(--forest); font-weight:800; font-size:19px; margin-bottom:8px;">
+        <span class="material-symbols-outlined" style="font-size:26px; color:var(--forest);">check_circle</span>
+        <span>접수 완료 및 즉시 연결 안내</span>
       </div>
-      <div class="form-group">
-        <label>성함 / 농장·상호명</label>
-        <input type="text" id="contactName" required placeholder="예: 홍길동 (또는 ○○영농조합)">
+      <p id="contactSuccessSummary" style="font-size:13.5px; color:#4a4438; line-height:1.6; margin-bottom:14px; background:#f6f9f5; border:1px solid #d4dfd2; padding:12px 14px; border-radius:10px;"></p>
+      <div style="font-size:12.5px; font-weight:700; color:var(--forest-deep); margin-bottom:10px;">
+        ⚡ 기다리실 필요 없이 아래 버튼으로 연구소 및 전담팀에 즉시 연결하실 수 있습니다:
       </div>
-      <div class="form-group">
-        <label>연락처</label>
-        <input type="tel" id="contactPhone" required placeholder="010-0000-0000">
+      <div style="display:flex; flex-direction:column; gap:10px;">
+        <a id="btnInstantCall" href="tel:063-855-5001" style="display:flex; align-items:center; justify-content:center; gap:8px; padding:13px 16px; border-radius:10px; background:var(--forest); color:#fff; font-size:14px; font-weight:800;">
+          📞 연구소 직통 063-855-5001 바로 전화걸기
+        </a>
+        <a id="btnInstantSms" href="sms:010-8201-7763" style="display:flex; align-items:center; justify-content:center; gap:8px; padding:13px 16px; border-radius:10px; background:linear-gradient(135deg, var(--gold), #c99f5b); color:#12211a; font-size:14px; font-weight:800;">
+          💬 상담 내용 문자(SMS)로 연구소에 즉시 전송하기
+        </a>
+        <a id="btnInstantMail" href="mailto:partner@highzonebio.kr" style="display:flex; align-items:center; justify-content:center; gap:8px; padding:12px 16px; border-radius:10px; background:#f0ede4; color:#2b261d; border:1px solid var(--line); font-size:13.5px; font-weight:700;">
+          ✉️ 이메일로 견적서 요청 전송하기 (partner@highzonebio.kr)
+        </a>
       </div>
-      <div class="form-group">
-        <label>재배 작물 / 문의 내용 (선택)</label>
-        <textarea id="contactMsg" rows="3" placeholder="예: 벼 1만 평 도복왕 처방 문의 / 시설 딸기 하우스 3동 영양제 상담 희망"></textarea>
-      </div>
-      <button type="submit" class="btn-submit">상담 접수하기</button>
-    </form>
+      <button type="button" onclick="closeContactModal()" style="width:100%; margin-top:14px; padding:10px; border-radius:8px; background:#faf8f5; color:#665f50; font-size:13px; font-weight:600; border:1px solid var(--line);">
+        창 닫기
+      </button>
+    </div>
   </div>
 </div>
 
@@ -1966,6 +2146,10 @@
 
   function openContactModal(title) {
     if (title) document.getElementById('modalTitle').innerText = title;
+    const formWrap = document.getElementById('contactFormWrap');
+    const successWrap = document.getElementById('contactSuccessWrap');
+    if (formWrap) formWrap.style.display = 'block';
+    if (successWrap) successWrap.style.display = 'none';
     const m = document.getElementById('contactModal');
     if (m) { m.classList.add('open'); m.style.display = 'flex'; }
   }
@@ -1990,9 +2174,40 @@
 
   function handleContactSubmit(e) {
     e.preventDefault();
-    const name = document.getElementById('contactName').value;
-    alert(`[접수 완료] ${name}님, 하이존바이오 공식 홈페이지 상담 신청이 접수되었습니다. 전담 연구원이 기재해주신 연락처로 신속히 연락드리겠습니다.`);
-    closeContactModal();
+    const typeEl = document.getElementById('contactType');
+    const type = typeEl ? typeEl.value : '일반 납품·처방 문의';
+    const name = document.getElementById('contactName').value.trim();
+    const phone = document.getElementById('contactPhone').value.trim();
+    const msg = document.getElementById('contactMsg').value.trim() || '상세 처방 및 납품 견적 상담 요청';
+    const timestamp = new Date().toISOString();
+
+    try {
+      const saved = JSON.parse(localStorage.getItem('hz_kr_inquiries') || '[]');
+      saved.unshift({ id: 'INQ-' + Date.now(), type, name, phone, msg, createdAt: timestamp });
+      localStorage.setItem('hz_kr_inquiries', JSON.stringify(saved.slice(0, 50)));
+    } catch (err) {
+      console.warn('localStorage save skipped:', err);
+    }
+
+    const smsBody = `[하이존바이오 공식홈 문의]\n성함/상호: ${name}\n연락처: ${phone}\n분야: ${type}\n내용: ${msg}`;
+    const mailSubject = `[하이존바이오 견적/상담요청] ${name} (${phone})`;
+    const mailBody = `안녕하세요, 하이존바이오 전주대 산학협력 R&D 연구소 앞 문의드립니다.\n\n- 성함/농장명: ${name}\n- 연락처: ${phone}\n- 문의분야: ${type}\n- 재배작물/내용: ${msg}\n`;
+
+    const smsLink = document.getElementById('btnInstantSms');
+    if (smsLink) smsLink.href = `sms:010-8201-7763?body=${encodeURIComponent(smsBody)}`;
+
+    const mailLink = document.getElementById('btnInstantMail');
+    if (mailLink) mailLink.href = `mailto:partner@highzonebio.kr?subject=${encodeURIComponent(mailSubject)}&body=${encodeURIComponent(mailBody)}`;
+
+    const summaryEl = document.getElementById('contactSuccessSummary');
+    if (summaryEl) {
+      summaryEl.innerHTML = `<strong>${name}</strong>님(연락처: ${phone})의 <strong>[${type}]</strong> 상담 내역이 접수 저장되었습니다.<br>아래 직통 전화 또는 문자·이메일 전송을 누르시면 연구소 담당자에게 실시간으로 전달됩니다.`;
+    }
+
+    const formWrap = document.getElementById('contactFormWrap');
+    const successWrap = document.getElementById('contactSuccessWrap');
+    if (formWrap) formWrap.style.display = 'none';
+    if (successWrap) successWrap.style.display = 'block';
   }
 </script>
 </body>
