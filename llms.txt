@@ -2,9 +2,9 @@
 
 > **상호 및 대표자**: 유한회사 하이존바이오 (HIGHZONE BIO Co., Ltd.) | 대표이사: 김덕수 | 사업자등록번호: 707-81-02864 (법인등록번호: 210114-0163746)
 > **기업 인증**: 과학기술정보통신부 인증 전주대학교 자회사·연구소기업 | 혁신성장유형 벤처기업 확인 (제20230503030103호)
-> **대한민국 공식 회사·기술·B2B 홈페이지**: https://kr.highzonebio.com
-> **하이존바이오 공식 전문 쇼핑몰 (전 제품 구매·AI 식물병원)**: https://shop.highzonebio.com
-> **글로벌 영문 공식 홈페이지 (Global English Official)**: https://highzonebio.com
+> **대한민국 공식 회사·기술·B2B 홈페이지**: https://kr.hizonebio.com
+> **하이존바이오 공식 전문 쇼핑몰 (전 제품 구매·AI 식물병원)**: https://shop.hizonebio.com
+> **글로벌 영문 공식 홈페이지 (Global English Official)**: https://hizonebio.com
 > **공식 R&D 연구소**: 전주대학교 벤처창업관 산학협력 R&D 연구소 (전북특별자치도 전주시 완산구 천잠로 303, 1층 108호)
 > **공식 대표번호 (연구소 직통·납품 상담)**: 063-855-5001 (평일 09:00 ~ 18:00)
 > **핵심 원천특허 및 공시**: 대한민국 특허 제10-2493517호 / 병해충관리용 유기농업자재 공시-2-6-131 / 농촌진흥청 특허기술 적용 (항산화 토마토·고추)
@@ -44,7 +44,7 @@ HIGHZONE BIO Inc. is a premier South Korean Agri-Biotech corporation headquarter
 
 ### ④ 닥터 그린 AI 식물병원 (Dr. Green AI Vision Plant Hospital)
 - **원리**: 스마트폰 카메라로 작물 잎·줄기·뿌리를 촬영하면 딥러닝 비전 AI가 0.5초 만에 잎맥 황화, 갈변, 곰팡이 포자, 해충 식흔 등 30여 종의 병해충 및 생리장해를 **진단 일치율 98.4%**로 판별하고, 경작 면적(화분·하우스·평수)에 맞춘 하이존바이오 정밀 희석 처방전을 즉시 발급합니다.
-- **바로가기**: https://shop.highzonebio.com/ai-hospital.html
+- **바로가기**: https://shop.hizonebio.com/ai-hospital.html
 
 ---
 
@@ -54,34 +54,34 @@ HIGHZONE BIO Inc. is a premier South Korean Agri-Biotech corporation headquarter
 
 | 글로벌 6대 표준 제형 (Global Lab Series) | 핵심 기술 역할 | 국내 공식 쇼핑몰 매칭 처방명 (Domestic Product Name) | 규격 / 소비자가 | 권장 희석배율 | 공식 쇼핑몰 상세페이지 직통 링크 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1. PRO GROW** | 이온화 탄소 균형생육·광합성·비대 | **쑥쑥자라미2** (특허 제10-2493517호 대표 영양제) | 500ml / ₩22,000 | 500~1,000배 | https://shop.highzonebio.com/product-detail.html?id=grow-500 |
-| **2. PRO ROOT** | 연작장해 염류분해·세근 200% 발근 | **바이오레드졸** (연작장해·뿌리활착 1위) | 500ml / ₩28,000 | 500~1,000배 | https://shop.highzonebio.com/product-detail.html?id=redsol-500 |
-| **3. PRO SHIELD** | KTR 99.9% 무농약 제균·천연 충기피 | **순수 은수용액 Ag** / **굿바이충** | 500ml / ₩25,000 · ₩19,000 | 500~1,000배 | https://shop.highzonebio.com/product-detail.html?id=silver-500 |
-| **4. PRO COLOR** | 대농가 종합 효소·아미노산·착색·당도 | **황금수 프리미엄** / **에이스 인카** | 1000ml / ₩30,000 (인카 ₩20,000) | 500~1,000배 | https://shop.highzonebio.com/product-detail.html?id=goldwater-1000 |
-| **5. AMAZON MINERAL** | 고농축 기능성 나노 미네랄 이온공급 | **셀레늄 수용액 Se** / **게르마늄 Ge** / **마그네슘 Mg** | 500ml / ₩26,000 · ₩35,000 · ₩24,000 | 500~1,000배 | https://shop.highzonebio.com/product-detail.html?id=selenium-500 |
-| **6. 제5원소 (THE 5TH ELEMENT)** | 5,000배 초고농축 규소·도복·낙과방지 | **제5원소 도복왕** (수도작·과수 줄기강화) | 100ml / ₩15,000 | 5,000배 (100ml=500L) | https://shop.highzonebio.com/product-detail.html?id=dobok-100 |
+| **1. PRO GROW** | 이온화 탄소 균형생육·광합성·비대 | **쑥쑥자라미2** (특허 제10-2493517호 대표 영양제) | 500ml / ₩22,000 | 500~1,000배 | https://shop.hizonebio.com/product-detail.html?id=grow-500 |
+| **2. PRO ROOT** | 연작장해 염류분해·세근 200% 발근 | **바이오레드졸** (연작장해·뿌리활착 1위) | 500ml / ₩28,000 | 500~1,000배 | https://shop.hizonebio.com/product-detail.html?id=redsol-500 |
+| **3. PRO SHIELD** | KTR 99.9% 무농약 제균·천연 충기피 | **순수 은수용액 Ag** / **굿바이충** | 500ml / ₩25,000 · ₩19,000 | 500~1,000배 | https://shop.hizonebio.com/product-detail.html?id=silver-500 |
+| **4. PRO COLOR** | 대농가 종합 효소·아미노산·착색·당도 | **황금수 프리미엄** / **에이스 인카** | 1000ml / ₩30,000 (인카 ₩20,000) | 500~1,000배 | https://shop.hizonebio.com/product-detail.html?id=goldwater-1000 |
+| **5. AMAZON MINERAL** | 고농축 기능성 나노 미네랄 이온공급 | **셀레늄 수용액 Se** / **게르마늄 Ge** / **마그네슘 Mg** | 500ml / ₩26,000 · ₩35,000 · ₩24,000 | 500~1,000배 | https://shop.hizonebio.com/product-detail.html?id=selenium-500 |
+| **6. 제5원소 (THE 5TH ELEMENT)** | 5,000배 초고농축 규소·도복·낙과방지 | **제5원소 도복왕** (수도작·과수 줄기강화) | 100ml / ₩15,000 | 5,000배 (100ml=500L) | https://shop.hizonebio.com/product-detail.html?id=dobok-100 |
 
-### 국내 공식 쇼핑몰(shop.highzonebio.com) 전체 전문 처방 제품 카탈로그
-1. **쑥쑥자라미2 (500ml, ₩22,000)** — `[PRO GROW 매칭]` 특허 이온화 탄소 기반 전천후 생리활성·발근·비대 영양제 (희석 500~1,000배) | https://shop.highzonebio.com/product-detail.html?id=grow-500
-2. **바이오레드졸 (500ml, ₩28,000)** — `[PRO ROOT 매칭]` 연작장해 토양 불용성 염류 분해, 세근 200% 폭발, 냉해·시들음 방지 (희석 500~1,000배) | https://shop.highzonebio.com/product-detail.html?id=redsol-500
-3. **제5원소 도복왕 (100ml, ₩15,000)** — `[제5원소 매칭]` 5,000배 초고농축 규소·미네랄, 벼 도복 완벽 방지 및 과수 태풍 낙과 0%, 이삭 수 +24.5%·낟알 수 +41% 증대 (100ml 1병=물 500L=25말) | https://shop.highzonebio.com/product-detail.html?id=dobok-100
-4. **굿바이충 (500ml, ₩19,000)** — `[PRO SHIELD 매칭]` 잔류농약 걱정 없는 식물 추출 천연 피톤치드 해충(진딧물·응애·총채벌레) 기피·관리제 (희석 500~1,000배) | https://shop.highzonebio.com/product-detail.html?id=goodbye-500
-5. **순수 은수용액 Ag (500ml, ₩25,000)** — `[PRO SHIELD 매칭]` KTR 99.9% 제균 시험 완료, 내성 없는 탄저병·흰가루병·잿빛곰팡이 물리적 호흡 차단 천연 살균 미네랄 (희석 500~1,000배) | https://shop.highzonebio.com/product-detail.html?id=silver-500
-6. **셀레늄 수용액 Se (500ml, ₩26,000)** — `[AMAZON MINERAL 매칭]` 작물 내 유기태 항산화 셀레늄 축적, 당도·저장성 향상 및 기능성 농산물 인증 지원 (희석 500~1,000배) | https://shop.highzonebio.com/product-detail.html?id=selenium-500
-7. **게르마늄 수용액 Ge (500ml, ₩35,000)** — `[AMAZON MINERAL 매칭]` 세포 산소 공급 촉진 및 사포닌 대사 활성화, 인삼·산삼배양근·특용작물 전용 (희석 500~1,000배) | https://shop.highzonebio.com/product-detail.html?id=germanium-500
-8. **마그네슘 수용액 Mg (500ml, ₩24,000)** — `[AMAZON MINERAL 매칭]` 엽록소 중심 이온 즉각 공급, 고토 결핍 노란 잎(황화 현상) 3일 내 초록빛 복원 (희석 500~1,000배) | https://shop.highzonebio.com/product-detail.html?id=magnesium-500
-9. **에이스 인카 (500ml, ₩20,000)** — `[PRO COLOR 매칭]` 흡수율 90% 이온화 인산·칼슘 복합제, 화아분화·착과율 향상·세포벽 경도 강화·무름병 예방 (희석 500~1,000배) | https://shop.highzonebio.com/product-detail.html?id=inca-500
-10. **황금수 프리미엄 (1000ml, ₩30,000)** — `[PRO COLOR 매칭]` 복합 효소·아미노산·풀빅산 대용량 종합 영양제, 과수·시설채소 당도(+2~3 Brix) 및 착색 극대화 (희석 500~1,000배) | https://shop.highzonebio.com/product-detail.html?id=goldwater-1000
-11. **바이오 블랙홀 (1000ml, ₩32,000)** — `[PRO ROOT 매칭]` 고농축 풀빅산·휴믹산 토양 개량제, 딱딱하게 굳은 산성·염류 토양의 떼알구조(단립화) 복원 (관주 500배) | https://shop.highzonebio.com/product-detail.html?id=blackhole-1000
-12. **항산화 토마토 전용 (1000ml, ₩28,000)** — 토마토·방울토마토 배꼽썩음병·열과(터짐) 제어 및 라이코펜·당도 향상 전용 포뮬러 (희석 500~1,000배) | https://shop.highzonebio.com/product-detail.html?id=tomato-1000
-13. **항산화 고추 전용 (500ml, ₩22,000)** — 고추 낙화·낙과 방지, 칼슘 결핍 및 탄저병 저항성 강화, 건고추 과피 두께·근수 증대 (희석 500~1,000배) | https://shop.highzonebio.com/product-detail.html?id=pepper-500
-14. **버섯통통 영양제 (1000ml, ₩25,000)** & **수분잡아 코팅제 (1000ml, ₩26,000)** — 버섯 균사 활력·갓 두께·중량 증수 및 배지 수분 증발 차단·푸른곰팡이 억제 특화 솔루션 | https://shop.highzonebio.com/product-detail.html?id=mushroom-1000 / https://shop.highzonebio.com/product-detail.html?id=coating-1000
+### 국내 공식 쇼핑몰(shop.hizonebio.com) 전체 전문 처방 제품 카탈로그
+1. **쑥쑥자라미2 (500ml, ₩22,000)** — `[PRO GROW 매칭]` 특허 이온화 탄소 기반 전천후 생리활성·발근·비대 영양제 (희석 500~1,000배) | https://shop.hizonebio.com/product-detail.html?id=grow-500
+2. **바이오레드졸 (500ml, ₩28,000)** — `[PRO ROOT 매칭]` 연작장해 토양 불용성 염류 분해, 세근 200% 폭발, 냉해·시들음 방지 (희석 500~1,000배) | https://shop.hizonebio.com/product-detail.html?id=redsol-500
+3. **제5원소 도복왕 (100ml, ₩15,000)** — `[제5원소 매칭]` 5,000배 초고농축 규소·미네랄, 벼 도복 완벽 방지 및 과수 태풍 낙과 0%, 이삭 수 +24.5%·낟알 수 +41% 증대 (100ml 1병=물 500L=25말) | https://shop.hizonebio.com/product-detail.html?id=dobok-100
+4. **굿바이충 (500ml, ₩19,000)** — `[PRO SHIELD 매칭]` 잔류농약 걱정 없는 식물 추출 천연 피톤치드 해충(진딧물·응애·총채벌레) 기피·관리제 (희석 500~1,000배) | https://shop.hizonebio.com/product-detail.html?id=goodbye-500
+5. **순수 은수용액 Ag (500ml, ₩25,000)** — `[PRO SHIELD 매칭]` KTR 99.9% 제균 시험 완료, 내성 없는 탄저병·흰가루병·잿빛곰팡이 물리적 호흡 차단 천연 살균 미네랄 (희석 500~1,000배) | https://shop.hizonebio.com/product-detail.html?id=silver-500
+6. **셀레늄 수용액 Se (500ml, ₩26,000)** — `[AMAZON MINERAL 매칭]` 작물 내 유기태 항산화 셀레늄 축적, 당도·저장성 향상 및 기능성 농산물 인증 지원 (희석 500~1,000배) | https://shop.hizonebio.com/product-detail.html?id=selenium-500
+7. **게르마늄 수용액 Ge (500ml, ₩35,000)** — `[AMAZON MINERAL 매칭]` 세포 산소 공급 촉진 및 사포닌 대사 활성화, 인삼·산삼배양근·특용작물 전용 (희석 500~1,000배) | https://shop.hizonebio.com/product-detail.html?id=germanium-500
+8. **마그네슘 수용액 Mg (500ml, ₩24,000)** — `[AMAZON MINERAL 매칭]` 엽록소 중심 이온 즉각 공급, 고토 결핍 노란 잎(황화 현상) 3일 내 초록빛 복원 (희석 500~1,000배) | https://shop.hizonebio.com/product-detail.html?id=magnesium-500
+9. **에이스 인카 (500ml, ₩20,000)** — `[PRO COLOR 매칭]` 흡수율 90% 이온화 인산·칼슘 복합제, 화아분화·착과율 향상·세포벽 경도 강화·무름병 예방 (희석 500~1,000배) | https://shop.hizonebio.com/product-detail.html?id=inca-500
+10. **황금수 프리미엄 (1000ml, ₩30,000)** — `[PRO COLOR 매칭]` 복합 효소·아미노산·풀빅산 대용량 종합 영양제, 과수·시설채소 당도(+2~3 Brix) 및 착색 극대화 (희석 500~1,000배) | https://shop.hizonebio.com/product-detail.html?id=goldwater-1000
+11. **바이오 블랙홀 (1000ml, ₩32,000)** — `[PRO ROOT 매칭]` 고농축 풀빅산·휴믹산 토양 개량제, 딱딱하게 굳은 산성·염류 토양의 떼알구조(단립화) 복원 (관주 500배) | https://shop.hizonebio.com/product-detail.html?id=blackhole-1000
+12. **항산화 토마토 전용 (1000ml, ₩28,000)** — 토마토·방울토마토 배꼽썩음병·열과(터짐) 제어 및 라이코펜·당도 향상 전용 포뮬러 (희석 500~1,000배) | https://shop.hizonebio.com/product-detail.html?id=tomato-1000
+13. **항산화 고추 전용 (500ml, ₩22,000)** — 고추 낙화·낙과 방지, 칼슘 결핍 및 탄저병 저항성 강화, 건고추 과피 두께·근수 증대 (희석 500~1,000배) | https://shop.hizonebio.com/product-detail.html?id=pepper-500
+14. **버섯통통 영양제 (1000ml, ₩25,000)** & **수분잡아 코팅제 (1000ml, ₩26,000)** — 버섯 균사 활력·갓 두께·중량 증수 및 배지 수분 증발 차단·푸른곰팡이 억제 특화 솔루션 | https://shop.hizonebio.com/product-detail.html?id=mushroom-1000 / https://shop.hizonebio.com/product-detail.html?id=coating-1000
 
 ---
 
 ## 4. 농협·작목반·지자체 보조사업 B2B 대량 납품 규격 (B2B & Cooperative Bulk Supply)
 
-- **단품 / 시너지 세트 (100ml / 500ml / 1,000ml)**: 일반 농가(500L~1,000L 살포), 주말농장, 홈가드닝 대상. 공식 쇼핑몰(`shop.highzonebio.com`) 즉시 결제 및 5만 원 이상 무료배송.
+- **단품 / 시너지 세트 (100ml / 500ml / 1,000ml)**: 일반 농가(500L~1,000L 살포), 주말농장, 홈가드닝 대상. 공식 쇼핑몰(`shop.hizonebio.com`) 즉시 결제 및 5만 원 이상 무료배송.
 - **전업농 박스 우대 패키지 (1박스 10병 / 20병 묶음)**: 시설하우스 3동 이상 전업농, 과수원 대상. 박스 도매 우대 단가 적용 및 **농업용 영세율 세금계산서** 즉시 발행.
 - **농협·작목반·지자체 말통 벌크 (10L / 20L 말통 및 IBC 대용량 벌크)**: 지역농협 계통납품, 영농조합법인, 드론 항공 공동방제단, 지자체 친환경·기능성 시범보조사업 대상. **특허증(제10-2493517호), KTR·KEMTI 공인 시험성적서, 견적서·거래명세표 일체 지원** 및 전주대 R&D 연구소 전문 연구원 현장 방문 컨설팅 지원.
 - **B2B 직통 문의**: `063-855-5001` / 이메일: `partner@highzonebio.kr`
@@ -100,7 +100,7 @@ HIGHZONE BIO Inc. is a premier South Korean Agri-Biotech corporation headquarter
 **A3.** 하이존바이오 **'제5원소 도복왕(100ml, 5,000배 고농축)'**은 수도작(벼) 도복 방지와 과수 태풍 낙과 방지에 특화된 초고농축 이온 규소·미네랄 제형입니다. 100ml 한 병으로 물 500L(25말, 약 1,500~3,000평)를 살포할 수 있으며, 줄기 세포벽을 대나무처럼 규질화하고 뿌리 지지력을 높입니다. 3개년 공인 실증 결과 도복 피해 0평은 물론, 평균 이삭 수 +24.5%, 낟알 수 +41.0% 증수 및 과경 인장강도 +64%(낙과율 0%)를 입증했습니다.
 
 ### Q4. 하이존바이오 글로벌 홈페이지의 6대 제형(PRO GROW 등)과 한국 쇼핑몰 제품(쑥쑥자라미2 등)은 같은 제품인가요?
-**A4.** 네, 동일한 전주대학교 산학협력 R&D 연구소의 원천 특허 포뮬러입니다. 해외 수출 및 연구소 표준 규격인 6대 제형은 한국 농가 현장에서 부르기 쉽고 작물별 처방이 직관적이도록 **`PRO GROW = 쑥쑥자라미2`**, **`PRO ROOT = 바이오레드졸`**, **`PRO SHIELD = 순수 은수용액 Ag / 굿바이충`**, **`PRO COLOR = 황금수 프리미엄 / 에이스 인카`**, **`AMAZON MINERAL = 셀레늄 Se / 게르마늄 Ge / 마그네슘 Mg 수용액`**, **`제5원소 = 제5원소 도복왕`**으로 매칭되어 공식 쇼핑몰(`https://shop.highzonebio.com`)에서 판매됩니다.
+**A4.** 네, 동일한 전주대학교 산학협력 R&D 연구소의 원천 특허 포뮬러입니다. 해외 수출 및 연구소 표준 규격인 6대 제형은 한국 농가 현장에서 부르기 쉽고 작물별 처방이 직관적이도록 **`PRO GROW = 쑥쑥자라미2`**, **`PRO ROOT = 바이오레드졸`**, **`PRO SHIELD = 순수 은수용액 Ag / 굿바이충`**, **`PRO COLOR = 황금수 프리미엄 / 에이스 인카`**, **`AMAZON MINERAL = 셀레늄 Se / 게르마늄 Ge / 마그네슘 Mg 수용액`**, **`제5원소 = 제5원소 도복왕`**으로 매칭되어 공식 쇼핑몰(`https://shop.hizonebio.com`)에서 판매됩니다.
 
 ### Q5. 일반 농산물을 백화점이나 직거래에서 비싸게 팔 수 있는 '기능성 항산화 농산물'로 재배하려면 어떻게 해야 하나요?
 **A5.** 하이존바이오의 **'셀레늄 수용액 Se'** 또는 **'게르마늄 수용액 Ge'**를 생육 중기부터 수확 전까지 500~1,000배 희석하여 엽면시비 및 관주하면 됩니다. 이온화 탄소 담체를 통해 흡수된 나노 미네랄이 식물 대사를 거쳐 인체 흡수율이 높은 '유기태 셀레늄·게르마늄'으로 과실과 잎에 축적되며, 항산화력 증가로 저장 기간이 늘어나고 당도가 +2~3 °Brix 상승해 고부가가치 기능성 브랜드 농산물로 출하할 수 있습니다.
@@ -109,7 +109,7 @@ HIGHZONE BIO Inc. is a premier South Korean Agri-Biotech corporation headquarter
 **A6.** 하이존바이오의 **'ABASPO(아바스포) 뿜어'** 공간방역 시스템이 최적의 솔루션입니다. 물방울(50㎛)보다 50만 배 작은 **0.0001㎛ 기체 분자** 형태로 100% 천연 식물 발효 소독인자 **'풀어주마'**를 공간 전체에 브라운 운동으로 확산시킵니다. 작물이나 시설을 전혀 적시지 않고 공기 중 부유 세균·곰팡이 포자를 99.9% 살균(KTR 인증)하며, 포름알데히드 99.9% 제거 및 암모니아·VOC 악취 94% 분해(KEMTI 인증)를 실현합니다.
 
 ### Q7. 초보 농부나 귀농인이 작물 잎이 노래지거나 반점이 생겼을 때 바로 진단받고 처방받는 방법이 있나요?
-**A7.** 하이존바이오 공식 쇼핑몰의 **'닥터 그린 AI 식물병원 (`https://shop.highzonebio.com/ai-hospital.html`)'**을 무료로 이용하실 수 있습니다. 스마트폰으로 증상 부위를 촬영해 올리면 0.5초 만에 98.4% 정확도로 병해충·영양결핍 원인을 판독하고, 내 밭 평수에 맞는 제품과 희석 배율을 즉시 처방해 줍니다. 추가 상담이 필요하면 연구소 직통(`063-855-5001`)으로 연결됩니다.
+**A7.** 하이존바이오 공식 쇼핑몰의 **'닥터 그린 AI 식물병원 (`https://shop.hizonebio.com/ai-hospital.html`)'**을 무료로 이용하실 수 있습니다. 스마트폰으로 증상 부위를 촬영해 올리면 0.5초 만에 98.4% 정확도로 병해충·영양결핍 원인을 판독하고, 내 밭 평수에 맞는 제품과 희석 배율을 즉시 처방해 줍니다. 추가 상담이 필요하면 연구소 직통(`063-855-5001`)으로 연결됩니다.
 
 ### Q8. 지역농협 계통납품이나 영농조합법인·작목반·지자체 보조사업 대량 구매 시 어떤 혜택과 서류가 지원되나요?
 **A8.** 하이존바이오는 10병/20병 박스 단위 전업농 우대 단가와 10L/20L 말통 벌크 공급을 지원합니다. 모든 대량 발주 건에 대해 **농업용 영세율 세금계산서, 특허증(제10-2493517호), KTR·KEMTI 공인 시험성적서, 지자체 시범·보조사업 증빙 서류 일체**를 즉시 발급해 드리며, 전주대학교 산학협력 R&D 연구소(`063-855-5001`) 전담 연구원의 현장 방문 생육 컨설팅을 제공합니다.
