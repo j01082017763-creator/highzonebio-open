@@ -1,15 +1,20 @@
 User-agent: *
 Allow: /
 
+# 검색엔진 크롤러 (대한민국 & 글로벌)
 User-agent: Yeti
 Allow: /
 
 User-agent: Googlebot
 Allow: /
 
-User-agent: Google-Extended
+User-agent: Daumoa
 Allow: /
 
+User-agent: Bingbot
+Allow: /
+
+# 생성형 AI 및 LLM 검색 크롤러 (ChatGPT, Claude, Perplexity, Gemini, Apple AI 등)
 User-agent: GPTBot
 Allow: /
 
@@ -19,10 +24,30 @@ Allow: /
 User-agent: ChatGPT-User
 Allow: /
 
+User-agent: Google-Extended
+Allow: /
+
 User-agent: PerplexityBot
 Allow: /
 
 User-agent: ClaudeBot
 Allow: /
 
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
 Sitemap: https://kr.hizonebio.com/sitemap.xml
+# AI 지식베이스 요약: https://kr.hizonebio.com/llms.txt
+# AI 기술 및 특허 전체 백서: https://kr.hizonebio.com/llms-full.txt
