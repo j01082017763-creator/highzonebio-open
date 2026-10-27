@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>하이존바이오 (HIGHZONE BIO) — 대한민국 공식 회사 홈페이지</title>
+    <link>https://kr.hizonebio.com/</link>
+    <description>전주대학교 벤처창업관 산학협력 R&amp;D 연구소. 특허 제10-2493517호 이온화 탄소 담체, 나노 미네랄, ABASPO 100% 천연 공간방역, AI 식물병원.</description>
+    <language>ko-KR</language>
+    <atom:link href="https://kr.hizonebio.com/rss.xml" rel="self" type="application/rss+xml"/>
+    
+    <item>
+      <title>특허 제10-2493517호 이온화 탄소 담체 플랫폼 — 불용성 염류 재킬레이트화 및 흡수율 85% 달성</title>
+      <link>https://kr.hizonebio.com/#technology</link>
+      <description>화학비료의 염류 집적과 연작장해를 해결하는 전주대 R&amp;D 연구소 특허 기술. 유기 다공성 탄소 분자 담체로 작물 뿌리 잔뿌리(세근) 200% 발근 촉진.</description>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0900</pubDate>
+      <guid>https://kr.hizonebio.com/#technology</guid>
+    </item>
+    <item>
+      <title>100% 천연 식물 발효 기체 공간방역 ABASPO(아바스포) 뿜어 '풀어주마'</title>
+      <link>https://kr.hizonebio.com/#abaspo</link>
+      <description>0.0001㎛ 초미세 기체 분자 훈증으로 온실·축사 곰팡이 포자 및 유해 세균 99.9% 제균. KEMTI 공인 시험 합격.</description>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0900</pubDate>
+      <guid>https://kr.hizonebio.com/#abaspo</guid>
+    </item>
+    <item>
+      <title>공인 시험포장 3개년 실증 데이터 — 벼 이삭 수 +24.5%, 낟알 수 +41.0%, 도복 0% 달성</title>
+      <link>https://kr.hizonebio.com/#field-trials</link>
+      <description>수도작 및 10kg 슈퍼배추, 시설하우스 토마토·고추 포장 시험 실증 결과.</description>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0900</pubDate>
+      <guid>https://kr.hizonebio.com/#field-trials</guid>
+    </item>
+    <item>
+      <title>B2B 도매·대량 납품 및 농업경영체 영세율 세금계산서 발행 안내</title>
+      <link>https://kr.hizonebio.com/#b2b</link>
+      <description>전주대학교 산학협력 R&amp;D 연구소 직통 공급(063-855-5001). 10L/20L 말통 드론 공동방제 및 작목반 대량 납품 지원.</description>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0900</pubDate>
+      <guid>https://kr.hizonebio.com/#b2b</guid>
+    </item>
+  </channel>
+</rss>
